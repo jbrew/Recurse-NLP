@@ -1,0 +1,47 @@
+This is part of our “Paper of the Week” series. For more info, check out our
+introductory blog post.
+
+This week’s paper is On Understanding Data Abstraction,
+Revisited by William
+Cook, an Associate Professor of Computer
+Science at The University of Texas at Austin. It was originally presented at
+OOPSLA ‘09. Among his many
+accomplishments, Cook was one of the original designers of AppleScript. He
+wrote a history of the language, which you can find on his
+website. He’s also
+currently fighting cancer, so if you enjoy his paper and have a bit of money to
+spare, you can
+donate
+to his treatment.
+
+This week, I decided to submit a paper myself. Alan
+O'Donnell, one of our facilitators, told me
+about this paper last year and it has had a profound effect on how I think
+about programming. The paper compares two forms of data abstraction, objects
+– the kind you find in Smalltalk, Java, Ruby, etc. – and abstract
+data types (ADTs), which include C’s built-in primitive types and the algebraic
+data types that are common to the ML family of languages. Cook’s thesis is that
+while people often conflate the two, objects and ADTs are two distinct forms of
+data abstraction, which have different properties and use-cases.
+
+Reading this paper felt like lifting a mental fog. Every programming problem
+that I approached suddenly had two possible solutions instead of one: I could
+solve the problem with objects, or I could solve it with ADTs. I mostly program
+in Ruby and JavaScript, which makes it more likely that I’ll solve my problems
+with objects (both languages have stronger support for objects than ADTs), but
+even the knowledge that there’s another option has been a useful tool for me in
+my everyday programming.
+
+Read Along is a way for you to participate in Paper of the Week. If you want
+to take part, all you have to do is read the paper, make something small in
+response (code or prose),
+email us a link of what you make by noon Eastern Time next
+Monday, and we’ll link to it from our blog.
+
+Hacker School facilitator Tom Ballinger is back with another Read Along
+submission. In it, he
+works through parts of last week’s paper in Python while reflecting on his own
+reading and learning styles.
+
+Happy reading!
+

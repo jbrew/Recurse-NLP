@@ -1,0 +1,30 @@
+Applicants commonly ask what a typical day at Hacker School is like. Hacker School is very self-directed, so there isn’t a simple answer. People allocate their time differently, both person by person and day by day, but there are a few buckets into which most activities fall.
+
+The primary constant is checkins. The official start of the Hacker School day is 10:30am1, when we have morning checkins. We do checkins in groups of four to six people, and the groups change every week.2 Checkins serve several purposes. First, they help make Hacker School an intentional community by delineating a clear start of the day. Second, they provide a form of lightweight social accountability: They help folks set goals for themselves and stick to them. Third, they help people hear about what others are working on, and possibly pair up. Lastly, they provide an easy way to ask for help. Checkins usually last between five and fifteen minutes.
+
+On Thursdays, we have weekly presentations at the end of the day. Presentations are entirely optional: You can choose whether or not to attend, and you are welcome to present or just watch. Presenters also choose how long they want to talk for, usually between one and five minutes. Attending is a fun way to hear what others are working on, find potential collaborators, and be exposed to a wide range of ideas and programming topics. Presenting is a great way to practice and improve talking about code and technical ideas to a friendly audience of peers.
+
+On Monday nights, we have dinner and a technical talk. The talks are typically given by residents or other invited speakers, and are meant to be accessible and interesting to a wide range of programmers (i.e., they don’t assume any specific domain expertise). Our format is a 20 to 30-minute talk with no questions, followed by a 90-second break when it’s socially acceptable to leave, followed by an extended Q&A period for those who choose to stick around. We don’t have questions during our talks because we want them to remain short. We have a break before Q&A begins because we want people to have a polite opportunity to leave if they’d like.
+
+Checkins, Monday night dinners, and Thursday presentations only make up a small part of Hacker School. Most of Hacker School is unstructured by design: We believe in giving people the freedom to use their time and opt into the structure that will be most effective for them. What people choose to do at Hacker School is typically a combination of the following:
+
+Pairing. We encourage people to spend at least some of their time pair programming. Pairing is one of the best and most common ways to take advantage of the incredible group of people Hacker School brings together.
+
+Working independently. While pairing is great, most Hacker Schoolers also choose to spend a good chunk of their time coding or studying on their own.
+
+Getting or giving code review. Code review is an excellent way to get feedback on your code. We encourage people to get (and give!) regular code reviews as an effective way to write better code and track their own progress.
+
+Attending or running short workshops or seminars. Current Hacker Schoolers, alumni, facilitators, and residents all occasionally run small workshops and seminars. Some of these are organized far in advance and many are fully ad hoc. Recent sessions have included a deep dive into how Git’s internals work, operating systems research, and how to effectively read Haskell code.
+
+Participating in book or other small working groups. Hacker Schoolers organize one-off and ongoing groups for all kinds of things. A perennial favorite are SICP work groups, where a handful of people agree to meet regularly (e.g., “Tuesdays and Thursdays at 11am”) to go over their solutions to the book’s exercises.
+
+Doing office hours. Hacker Schoolers can always grab a free facilitator to discuss their goals, code, or anything else. Additionally, we have a office hour system so people can book time with facilitators in advance.
+
+Looking back over this post, it successfully conveys the mechanics of Hacker School, but fails to capture its essence. That’s because many of the best parts of Hacker School are unplanned, or at least not planned directly. The value of Hacker School is ultimately an emergent result of its base conditions: Bringing together a diverse group of friendly, intellectually curious people, providing a safe and resource-rich environment, and giving them the freedom to work on and learn about what they’re interested in. The great things this leads to are serendipitous and too numerous to enumerate.
+
+Hacker Schoolers get 24/7 access to the space, and so some people come in much earlier, though most arrive between 10 and 10:30am. A 10:30am start time is a compromise, since past Hacker Schoolers have said their ideal start times would range from 6am to 12pm.↩
+
+
+We’ve experimented with many variations for how to form and rotate groups. The current incarnation is this: Each week people choose a group from a sign-up sheet. Half of the groups are topic-based, and the first Hacker Schooler to sign up for one of those groups can set a topic (e.g., “Ruby” or “Distributed systems”). The other half of the groups are “random” – i.e., they don’t have any specific topic.↩
+
+

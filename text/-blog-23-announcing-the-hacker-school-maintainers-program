@@ -1,0 +1,28 @@
+Today we’re announcing the Hacker School Maintainers Program. The Maintainers Program will bring maintainers of free and open source software (FOSS) into Hacker School, either physically or virtually, to help Hacker Schoolers contribute to their projects. We’re extremely excited to have Stefan Karpinski, David Nolen, and Glyph as our first maintainers.
+
+We’re running this experiment for three reasons. First, we think it will be a useful piece of optional structure for some Hacker Schoolers. Second, we would like to give back to FOSS communities, many of which we owe a great deal to. Finally, we would like to experiment with running parts of Hacker School asynchronously over the Internet.
+
+We often get asked  “How do you learn at Hacker School without any structure?” This is a confusing question for us because we don’t believe structure is inherently bad. We believe people learn best when they are driving their own education and studying things that interest them. That doesn’t mean that we don’t think structure plays a part in the learning process, just that it must be self-imposed.
+
+Few people can learn without structure, but the pieces of structure that work for you may be different than the ones that work for someone else. Furthermore, coming up with structure on your own is hard. This is why we spend so much time thinking about how we can provide optional structure at Hacker School. We like optional structure because it allows you to pick the pieces that work for you and ignore everything that doesn’t.
+
+We’ve been bitten by having too much required structure before. One year ago, in our summer 2012 batch, we held an Open Source Week, where for one week everyone stopped what they were working on and contributed to FOSS projects. Some Hacker Schoolers loved it and got a lot out of it. Others would have rather stayed home.
+
+Contributing to FOSS isn’t right for everyone. Some people find it uninteresting. For others, it simply isn’t the best way for them to grow as a programmer. But for those for whom the time is right, contributing to FOSS projects can be a very important step in their evolution as programmers and we’re excited to make it a larger part of Hacker School.
+
+Hacker School wouldn’t be possible without free software. We would like to find ways to give back to the communities and projects that have made our lives better. Many of us still remember what it was like to have to pay hundreds of dollars for a C compiler. Now it’s hard to imagine a world where we don’t have the freedom to read and modify the source of the tools we use every day. We’re not sure what sort of impact the Maintainers Program will have, but we won’t consider it a success unless the projects and maintainers we work with do, too.
+
+Hacker School would be far worse if it didn’t take place in person. Friendship, comfort and trust, all of which are necessary for effective learning, are more easily built in person than online. This means that many of the benefits afforded to internet businesses are not available to us. We’d like to find ways to use the Internet to our advantage without sacrificing the things that make Hacker School great.
+
+As an experiment, we’ve designed the Maintainers Program to work even if a maintainer can’t physically be at Hacker School. We’re going to use all the software we have at our disposal—video chat, ssh, screen, tmux, mailing lists, and more—to make the Maintainers Program work as seamlessly as possible whether or not the maintainer is in the same room or even available at the same time.
+
+The Maintainers Program is simple in practice: contributing to FOSS projects can be hard, especially if you’ve never done it before. Maintainers will help Hacker Schoolers navigate their project, understand what needs to be done, and give feedback and code review. There are no guarantees that your code makes it into a project, but we hope that having maintainers available for guidance will make it more likely.
+
+We want our maintainers to be genuinely nice people. This is why all of our initial maintainers are past residents. Stefan has been a resident every batch since we started the Residency program. He’s a great evangelist for the Julia programming language and because Julia is written almost entirely in Julia, the path from user to contributor is a smooth one. David was a resident in our fall 2012 batch and he’s been a constant presence around Hacker School ever since. His enthusiasm for ClojureScript and core.async is infectious and he’s been instrumental in helping Hacker Schoolers contribute to open source projects in the past. Glyph is the founder of the Twisted project and an incredibly warm person. He was a resident in our winter 2013 batch and we’re thrilled that we could find a way to get him involved with Hacker School again.
+
+We’re also looking for a few more maintainers. We’re going to be asking people we know for recommendations, but we’d also love to have your input. We’re looking for maintainers who are warm and empathetic and who have projects with existing communities of contributors. If you think of someone (or want to nominate yourself), you can use this Google form.
+
+As much as we’d like to respond to everyone who nominates someone, we simply don’t have the time, so don’t expect a response unless we have questions about the person you’re nominating.
+
+We’re really excited to be welcoming Stefan, David, and Glyph back for another batch of Hacker School. If contributing to Julia, ClojureScript, core.async or Twisted is something that you’d enjoy doing, there’s still time to apply for our fall 2013 batch.
+

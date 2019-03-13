@@ -1,0 +1,14 @@
+We’re excited to announce Issue Two of Code Words, our quarterly publication about programming.
+
+In Not everything is an expression, Michael Robert Arntzenius (RC Summer 1, 2014) presents a look at syntax classes and their importance. We especially love the ability to dynamically change the language used in the examples, as well as the careful syntax-highlighting to help explain the structure of the code.
+
+Recurse Center facilitator Mary Rose Cook takes a deep dive into the inner workings of Git in Git from the inside out. Be sure to check out Gitlet, her JavaScript implementation of Git, after you’re done reading.
+
+Current Recurser Jim Shields shares his experience digging into HTTP in How I learned to (stop worrying and) love HTTP, setting a great example of how to be rigorous and curious as a new programmer.
+
+Last but not least, Nemanja Stanarevic (RC Summer 2, 2014) provides a thoughtful Introduction to reactive programming, inspired in part by Mary’s Introduction to functional programming from Code Words Issue One.
+
+In addition to all of the writers, we’d like to thank Aki Yamada (RC Summer 2013), Rose Ames (RC Winter 2014), Erik Taubeneck (RC Summer 2013), Danielle Pham (RC Summer 1, 2014), and Jari Takkala (RC Fall 2013) for all their careful editing.
+
+Code Words is a quarterly publication written and edited by the Recurse Center community. Like the Recurse Center itself, we aim to make Code Words accessible and useful to both new and seasoned programmers, and to share the joyful approach to programming and learning that typifies Recursers.
+

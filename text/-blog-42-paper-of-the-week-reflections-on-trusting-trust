@@ -1,0 +1,64 @@
+This is part of our “Paper of the Week” series. For more info, check out our
+introductory blog post.
+
+This week, we have two papers: a paper and a bonus meta-paper. We’ll start with
+the meta-paper.
+
+Hacker School alum Marcus Malka submitted How to
+Read a
+Paper
+by Srinivasan
+Keshav, a
+computer science professor at the University of Waterloo, and three of his
+students: Hossein Falaki, Earl Oliver, and Sumair Ur Rahman. It was originally
+published in the July 2007 issue of Computer Communication
+Review, but
+the version we’re linking to is a living document and was last updated in 2013.
+
+How to Read a Paper has several useful tips and strategies for effectively
+reading academic papers. Some of it is geared towards researchers who are peer
+reviewing papers for their colleagues, but most of the tips are applicable for
+any reader.
+
+This week’s paper is Reflections on Trusting
+Trust by
+Ken Thompson. Thompson is the
+co-creator of the UNIX and Plan 9 operating systems as well as the Go
+programming language. The paper is adapted from a lecture he gave upon
+receiving a Turing Award for his hand in the creation of UNIX, and was
+published in the August 1984 issue of Communications of the
+ACM. It was submitted by Hacker Schooler Leah
+Hanson who shared the following:
+
+A short piece by Ken Thompson illustrating that you have to trust your
+compiler/the people who wrote it: reading the source code [of the compiler,
+etc.] is not enough to be really sure that the compiler is doing what it should
+be doing. This had some of the mind-expanding feeling that recursion often
+gives people when they first grasp it; the malicious binary version of the
+compiler both affects the next version of the same compiler compiled with it
+(self-hosting compiler) and some target binary (the one that handles logging
+into Linux).
+
+A recent related blog post, Countering “Trusting Trust” talks about
+a way to defend against this attack (given that not all of your compilers are
+infected by exactly the same attack). This method can have some false
+positives, in the form of compiler bugs (that are not malicious attacks).
+
+We want to let people participate in Paper of the Week, so we’re adding a
+section called Read Along. If you want to take part in Read Along, all you
+have to do is read the paper, create an original work in response, and email
+us a link of what you make by noon Eastern Time on the following Monday.
+Your original work might be a blog post explaining the paper or any insights it
+gave you, a program that implements some of the paper’s ideas, or something
+else entirely. It’s up to you. We’re not promising to publish everything, but
+our goal is to make Read Along something that’s easy to participate in, so
+don’t be shy about submitting, even if it’s something small.
+
+This week, Hacker School facilitator Tom
+Ballinger decided to take on Guy Steele’s
+challenge to explain garbage collection using only words of one syllable as
+primitives. You can see the results on his
+blog.
+
+Happy reading!
+

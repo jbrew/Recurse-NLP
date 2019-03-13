@@ -1,0 +1,77 @@
+The more programming I do, the more often I find myself thinking, “Ah, that’s not magic.”  I had one of these moments recently when dealing with a python virtual environment created by virtualenv.  Virtualenv creates a sandboxed python environment with its own installation directories, separate from the system python and other virtual environments on your machine.  This makes it a great way to test on multiple versions of python or to explore a new package that could break other things you care about.
+
+How does it work?  Well, the ‘magic’ works like this:
+- create a virtual environment with virtualenv my_env
+- chant the magic incantation source bin/activate
+- watch as your previously-failing installation of pygame goes smoothly!
+- To “turn off” your virtualenv, the magic incantation is deactivate.  
+
+Of course, it’s not actually magic.  Virtualenv is a fairly simple (though clever) bash script that does only a couple of things.  You don’t have to understand much bash scripting to see what’s going on.  In fact, if you only know python, I’ll teach you all the bash you need to understand virtualenv right now.
+
+I’m going to skip the actual creation of a virtual environment, and just focus on what happens when you activate and deactivate that environment.  If you’d like to play along, pip install virtualenv, create a new virtual environment with virtualenv testenv and then cd into the testenv/ directory that was created.  (Don’t run source bin/activate just yet.)
+
+First, let’s look at that incantation, source bin/activate.  What’s going on here?  source is a bash command that runs a file, the same way you’d use import to run your python module.1 bin/activate is the bash script being run.
+
+One other detail of source will be important.  source runs the file provided in your current shell, not in a subshell.  Thus it keeps the variables it creates or modifies around after the file is done executing.  Since (almost) all that virtualenv does is modify environmental variables, this matters.
+
+OK, now let’s look at bin/activate.  Fire up the activate file in your favorite text editor.
+The first thing to notice is that it’s only ~80 lines!  Cool - we can handle this.
+
+(The activate script is generated automatically by the virtualenv installation, and has some system-specific parameters, so your copy may be slightly different that mine.  Mine looks exactly like this.)
+
+The first thing we find is a comment:
+
+We already know why this is true - it’s because of the behavior of source that we just learned.  Running a bash file directly (e.g. calling activate from bin/) runs the script in a subshell - not what we want.
+
+Onward:
+
+This is just a bash function definition.  Function calls work just like commands in bash.  Now we know that the commands included in this block are what runs when we say deactivate in our virtual environment.
+
+The meat of the activate file is in lines 42 - 47:
+
+Starting with a call to deactivate ensures that any existing virtual environment is deactivated before a new one is created.  Virtual environments are separate from each other; they can’t be nested.  
+
+The rest of this is pretty straightforward.  export is the only other bash command we need to know, and it’s really simple: it just exports a variable into your current environment. It also ensures that environmental variables in processes spawned from the current one get the same values.  Since we’re  running the file via source, the effect is to set variables and then keep them after the activate script finishes running. 
+
+So the activate script does three primary things:
+1. Sets a VIRTUAL_ENV bash environmental variable containing the virtual environment directory
+2. Prepends that directory to your PATH
+3. Sets the new PATH.  
+
+What is PATH?  The PATH is an environmental variable representing a list of directories.  Your system will look for programs and scripts in the order that directories are listed.  The list is separated by colons.  
+
+Let’s see this in action.  To see what your PATH looks like before you run the activate file, hop into your terminal and type echo $PATH.  This prints out the value of PATH to the terminal. Mine looks in part like this (I’ve inserted line breaks for clarity):
+
+All this says is that when I type a command like python, my system looks first in /usr/local/bin for python.  If it can’t find it, it moves on to /usr/local/sbin, then to /usr/bin, and so on.  
+
+Now let’s run the activate file and see what changed.  (Again, I’ve inserted line breaks for clarity.)
+
+Sure enough, that testenv directory has been prepended to my PATH.  Now bash will look for python, or any other system command, first in the bin/ directory here in my testenv.  What’s in there?  Let’s take a look:
+
+There’s our activate file that we’ve been examining, plus a version of python!  So this is the python installation that will get modified if we install packages, and the python that will be run by python.  For easy confirmation of this, we can use which:
+
+We’re using the testenv python, not the system python (which is found in usr/bin/).
+
+Notice that activate also modified my bash prompt (PS1). We’ll skip some of the details here - the important point is that this code stores your old PS1 and inserts the name of the virtualenv into the new one.2
+
+We’re done with our virtualenv for now - let’s come back to deactivate.
+
+deactivate calls export to restore the old environmental variables, then calls unset to remove unneeded variables from the environment.  (You can verify this from the terminal by using the command env to view all your environmental variables.)  Finally, deactivate calls unset -f deactivate to remove the deactivate function itself.  (-f removes a function.)  The function is now gone from the environment, which you can easily verify:
+
+Our PS1, PATH, and PYTHONHOME end up with their original values.
+
+There you have it - no magic, and just a tiny bit of bash scripting to understand the power of a virtual environment.
+
+
+source is the same as the dot operator .↩
+
+
+
+            There’s a particularly bewildering bit of code in these lines:
+        
+
+
+            The if statement as written will always return false - but the following line doesn’t do anything anyway.  This turns out to be a consequence of the system-dependent nature of virtualenv and the fact that the activate script is automatically generated.  See here for a more detailed explanation.
+             ↩
+
+

@@ -1,0 +1,65 @@
+Update 9/22/14: Hacker Schooler Marcus Malka suggested “How to Read a
+Paper”
+by Srinivasan
+Keshav as a
+companion to Paper of the Week. We’ve included it here for posterity. You can
+read more about it in PotW #2.
+
+Today we’re introducing the first recurring series on the Hacker School blog.
+It’s called Paper of the Week. Every Monday we’ll link to a computer science
+paper that’s worth reading, submitted by a member of the Hacker School
+community.1
+
+Our goal is to present academic computer science in a practical and accessible
+way. Reading the right papers can be enriching and enlightening, but there’s a lot
+of CS research happening and it’s hard to figure out what papers have useful
+insights into everyday programming. Lots of Hacker Schoolers read and talk
+about papers, and we thought it would be fun to share some of them with the
+rest of the world.
+
+We’ll be featuring papers that are relevant to programmers of all levels. Some
+of them will be Ph.D dissertations, others will be short essays published in
+journals or just posted to the Web.
+
+If you’re new to academic writing, the language can be dense and intimidating.
+This is true even for experienced programmers. Don’t despair! Sometimes you
+will need to read a sentence one word at a time, looking up the definition of
+each term you don’t understand. Often, it will take multiple reads to grok what
+the paper is about. Even if you don’t end up fully understanding a paper, the
+experience of puzzling through it is often worthwhile.
+
+This week’s paper is Growing a
+Language by Guy
+Steele. It is a version of a
+talk he gave at OOPSLA ‘98. At
+the time, Steele was working at Sun Microsystems on the Java programming
+language. He was already well-known for his work developing Scheme with
+Gerald Sussman.
+
+The paper was submitted by Hacker School resident Mel
+Chua who had this to say about it:
+
+I ran into this during my first programming job as a fresh college grad. I
+didn’t have a formal CS education, so I didn’t know much about CS theory,
+and… to be entirely honest, at some level, I didn’t even want to look at it
+(because what if I looked and found it was Too Hard and I was Not Smart Enough
+To Be A Programmer?) So I irrationally avoided formal CS theory due to
+Impostor Syndrome.
+
+However, I loved humor – which was how this paper snuck on my radar
+under the guise of “check out this great joke!” It wasn’t until partway through
+that I realized I was laughing at CS theory. Steele’s talk uses natural
+language to illustrate how programming languages are built up from primitives,
+but he does so in such a gentle, conversational way that it takes a little
+while to get the joke of what he’s trying to do. At first, it just sounds like
+he’s talking funny about topics that aren’t relevant to programming, but stay
+with it. It is absolutely worthwhile.
+
+Happy reading!
+
+
+      If this gets popular, we may also publish submissions from the public. No
+      promises that we’ll ever do this, but if you feel the urge to send in
+      your favorite paper, you can email potw@hackerschool.com.↩
+
+

@@ -1,0 +1,28 @@
+This post tries to answer a seemingly simple question: What do people work on at Hacker School? The question isn’t as simple as it first seems because Hacker School doesn’t have a curriculum and Hacker Schoolers are extremely diverse: They choose to do a huge range of things, from writing small games to contributing to large existing projects.
+
+There are a few things that are true across the board. Everything written at Hacker School is open source, and everyone works on projects they choose for themselves based on their interests and what they want to learn. Most people focus on projects that will be hard but possible for them to do given their current programming abilities. Beyond that, it’s hard to make any general statements, and so the best way to get a sense for the types of things people do here is through examples.
+
+So, without further ado, here are nine things people do at Hacker School:1
+
+Explore a new programming language – with its creator. Daria has been learning Elixir, a functional programming language built on top of the Erlang virtual machine, with the help of its creator, José Valim, who’s currently in residence at Hacker School.
+
+Implement the Fast Fourier Transform and build a custom compression scheme. Marisa and Nava have combined programming and linear algebra to do image processing and compression work.
+
+Write a useful open source library, and become the top-trending project on GitHub. Sahat has been writing a token-based authentication module for AngularJS called Satellizer, and with nearly 2,800 stars it was recently the top-trending project on GitHub.
+
+Contribute to Rust, and find bizarre bugs in its string search algorithm. Nick discovered that "bananas".contains("nana") returns false in Rust. He then tracked down the bug, submitted a patch, and wrote a blog post.
+
+Do hard-core things with bytecode and add tail-call optimization to Python. Liuda wrote a Python decorator that can automatically make a function tail-recursive by manipulating its bytecode.
+
+Build tools you want for yourself. Victor has been working on Ractor, a distributed actor system in F#.
+
+Find serious security vulnerabilities, and make the web a little safer. Max discovered that Maven Central serves JAR files unencrypted by default, and wrote dilettante, a man-in-the-middle proxy that injects malicious code. His blog post received so much attention that the company behind Maven Central is reversing their policy and will start providing free HTTPS access.
+
+Build a photobooth. Laura built everything for an ASCII photo booth, from the hardware to the software to process the images, and patched GPUImage’s Mosaic filter along the way. And a slew of Hacker Schoolers pitched in to make hardware hacks for our summer party.
+
+Reflect and be introspective, especially about learning. In addition to working on projects, Hacker Schoolers reflect on how they learn. Dana wrote a great post about her experience at Hacker School.
+
+If any of the above sounds exciting to you, you should apply to Hacker School. And please don’t let any of these projects intimidate you: Most people report that Hacker School enabled them to tackle things they previously thought they couldn’t.
+
+To be clear, this is just a small sampling of things Hacker Schoolers have done in the past few weeks, and isn’t in any way comprehensive.↩
+

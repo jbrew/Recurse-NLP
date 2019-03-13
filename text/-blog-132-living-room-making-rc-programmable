@@ -1,0 +1,16 @@
+For the last three months, Jonathan Dahan, an RC alum from our Summer 2, 2014 batch, has been back at RC building Living Room, a system to make RC physically programmable. Living Room is installed in Lovelace (a room at RC) and is made up of a projector, some cameras, and a database. It can recognize physical objects and can project onto the wall in response to what it sees. Living Room is inspired by Realtalk (a computing system being built at Dynamicland, a genuinely different and exciting community center in Oakland), Natural Language Datalog, and Linda.
+
+We’re supporting Jonathan’s work because we think Living Room will make RC a richer experience for Recursers and alumni: a physically programmable RC will make it easier to see what projects other Recursers are working on, and will make it more likely that projects persist from one batch to the next. We want to give Recursers more control and ownership of RC’s physical infrastructure, and supporting Jonathan’s work is a great way to do that.
+
+Katherine Ye (S’13) started a research blog where she, Jonathan, and other Recursers working on the project are keeping their notes. We’re planning on having the system running by Never Graduate Week, our annual alumni week, in May.
+
+The system consists of a central Datalog-style database that stores facts about the world, and independent processes that can query the database and add facts of their own. There’s a projector that draws pictures in the room, and cameras that can see what’s going on. Everything drawn on the projector is computed each frame from the facts in the database. The database is accessible over the network, so processes can run anywhere.
+
+The project is in the early stages, but it runs. It’s also surprisingly performant. In January, Jonathan and Alex Warth (m1’18) were able to project video from a webcam in real time by having one process put each frame into the database, and another read the frames out and draw them.
+
+If you’re a member of the RC community, stop by any Thursday or Friday before May 18th to pair with Jonathan.
+
+If you’re not yet a part of the RC community, you can still follow the development on GitHub, follow the research blog, and join in the State of the Room video chats weekly at 12:30 pm EDT on Fridays. All the code is open source so you can play, learn, and make your own.
+
+If you’re interested in joining a friendly, welcoming community of people working on becoming better programmers, consider applying to RC. You can join us for a six- or 12-week retreat, or try one of our new one-week mini retreats.
+

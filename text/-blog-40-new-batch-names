@@ -1,0 +1,29 @@
+Ever since we moved to overlapping batches, we’ve had a problem with our batch names. With
+eight batches a year, Summer, Fall, and Winter no longer make sense. For
+a while we’ve been avoiding the problem by embedding dates directly into the
+batch names, but that wasn’t an elegant solution.
+
+Today we’re introducing new batch names. Batches will be named with a season,
+the number 1 or 2, and a year. For example, the batch starting on October 6th
+of this year is called Fall 2, 2014. Here is a full list of batch names for
+2015:
+
+It’s not a typo that Winter 2 comes before Winter 1. While it is confusing,
+we think the alternative isn’t much better: Winter 2, 2014 would be followed
+by Winter 1, 2015. We wish there was a perfect solution, but we feel a bit
+better knowing that naming is one of the two hard problems in Computer
+Science.1
+
+Batch names can be abbreviated with the first letter of the season (e.g.
+F2'14). In the interest of disambiguation, the abbreviations for Spring and
+Summer use the first two letters of the season (Sp1'15 and Su2'16).
+
+We’ve added the new batch names to our FAQ, apply page and the rest of our site.  We’ve
+also retroactively applied the new names to all existing overlapping batches.
+If you find a place where we’re still using old batch names, please let us
+know.
+
+
+      The others are cache invalidation and off-by-one errors.↩
+
+

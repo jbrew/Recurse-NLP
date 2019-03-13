@@ -1,0 +1,46 @@
+We’re thrilled to announce that Michael Nielsen will be spending the next year at the Recurse Center to help us launch a research lab focused on discovering better ways of making software.
+
+As part of the launch of the research lab, we’ll also be hosting a symposium later this year, and we will be announcing new ways for researchers, industry professionals, and other kindred spirits to become part of the RC community in the coming months.
+
+Our sole focus since we started RC four years ago has been running an educational retreat: A self-directed program in New York which brings together people from around the world for three-month stints to learn from each other and become better programmers, regardless of if they’ve been programming for a few months or a few decades. We see a research lab as a natural outgrowth of this work. The Recurse Center has always been a place where people come to learn new things. Now, we hope it will also become a place where people discover new things about the world.
+
+Our research lab and educational retreat will be linked and mutually reinforcing. The lab will benefit from the diverse stream of programmers who come through our educational retreat, as well as the supportive, intellectual, and energizing culture we’ve grown. Our retreat will benefit from the expanded group of people who will now be able to participate in our community and the energy, ideas, and expertise they will bring with them.
+
+Michael will be joining us for one year as a Recurse Center Research Fellow. Michael has previously worked on and written about a wide range of topics, from Lisp as the Maxwell’s equations of software to the future of science. He coauthored the canonical quantum computing textbook, and wrote the books Reinventing Discovery and Neural Networks and Deep Learning. He has also been a Research Fellow at Caltech and a senior faculty member at the Perimeter Institute.
+
+We met Michael in 2012, when he attended the first half of our summer batch, and ever since he has impressed us with his deep intellect, unassuming demeanor, and extraordinary knack for looking at things from different perspectives and seeing connections others don’t. We are delighted to have Michael coming back to RC for a full year.
+
+In the future, we hope to fund multiple research fellows for multiple years. In the short-term, we will be focusing on finding new ways to bring together and exchange ideas with people doing related work outside of RC. We will be sharing more about these and our symposium in the coming weeks.
+
+In the process of figuring out how we should start this experiment, my cofounder, David Albert, has had extensive discussions with many researchers and other wise people.1 We’ve gotten a lot of conflicting feedback, but we’ve also heard some consistent themes, which have greatly informed our approach.
+
+Fund people, not projects. Most research today is funded by writing proposals for specific projects. But what if you find a better problem to work on while doing your work? Worse, project funding is frequently tied to deliverables, which can encourage short-term thinking and discourage high-risk and potentially high-reward explorations.
+
+Look to the edges. Much mainstream research work focuses on what is currently fashionable. Yet we believe that much of the most exciting work, what will ultimately be understood as the truly luminous ideas, are at the edges of our knowledge, currently barely visible, not yet in the mainstream. In the words of Stewart Brand, we need to “look to the edges to see where the center is going.” The fashionable fields are often important and worth funding. But if you want to make a difference with limited funding, you need to be pushing the boundary, doing edgy things, things that are not yet part of the mainstream, but with luck and imagination and daring will help create the mainstream of the future.
+
+What we aim to produce. Much academic research is focused on publishing papers. That makes sense for some types of research, including some of the work we hope to support at RC. But in software it may make just as much sense or more to write an interactive essay, release a demo or prototype, or share the source code for a full-fledged piece of software.
+
+Research takes time, and there aren’t enough long-term funders. Some people said they thought the lower-bound for useful work was two or three years, and others said it was at least 10. Regardless, we know we need to fund people for more than a year at a time, and we will be doing this as soon as it’s possible and responsible for us to do so.
+
+We’d like to thank Sam Altman, Greg Brockman, Will Byrd, David Dalrymple (aka Davidad), Patrick Dubroy, Evelyn Eastmond, Jonathan Edwards, Matthias Felleisen, Dan Friedman, Chaim Gingold, Adele Goldberg, Philip Guo, Laura Hill, Ken Kahn, Alan Kay, Lindsey Kuper, Robert Lefkowitz (aka r0ml), Chris Martens, Matt Might, Henry Minsky, Margaret Minsky, Marvin Minsky, David Nolen, Peter Norvig, Ken Perlin, Cynthia Solomon, Oliver Steele, Bret Victor, and Jean Yang for providing their time, expertise, and advice for starting a research lab.
+
+More than a decade ago, Alan Kay wrote:
+
+There is nothing in [software engineering] that is like the construction of the Empire State building in less than a year by less than 3000 people: they used powerful ideas and power tools that we don’t yet have in software development. If software does “engineering” at all, it is too often at the same level as the ancient Egyptians before the invention of the arch (literally before the making of arches: architecture), who made large structures with hundreds of thousands of slaves toiling for decades to pile stone upon stone: they used weak ideas and weak tools, pretty much like most software development today. 
+
+We believe this is still true, and over the long run RC’s lab will aim to expand the set of “powerful ideas and power tools” we have in the world of software. To use Alan Kay’s metaphor, we will aspire to discover, understand, and build new types of arches.
+
+That goal is intentionally broad. Many people have advised us that a research focus should be specific enough to attract people to work together towards a shared vision and also broadly interpretable, so promising paths of inquiry aren’t off-limits.
+
+To give some flavor for the types of work we’re excited by, here’s a small sampling of things that inspire us: VPRI’s STEPs project, Plan 9, Ken Perlin’s experiments with visual grammars, Vi Hart’s videos, Mirage, Livegrep, Growing a Language, functional composition, Systems Software Research is Irrelevant, and how Eve is making programming more declarative and Elm is making it more observable. Additionally, we’ve been inspired and informed by a number of books, most notably Seymour Papert’s Mindstorms, Jane Jacob’s The Death and Life of Great American Cities, Richard Hamming’s The Art of Doing Science and Engineering, Mitchell Waldrop’s The Dream Machine, and Jon Gertner’s The Idea Factory.
+
+RC has been sustained the past four years by recruiting fees from partner companies who hire our alumni. Late last year, we reached a tipping point, and finally became convinced that we could sustainably run our educational retreats for free to all participants based purely off recruiting revenue. 
+
+One of the many open questions about this experiment is whether it’s possible to sustainably fund research off recruiting fees alone. We believe it is. Our bottom line, and thus ability to fund the lab, is ultimately dependent on our ability to attract great people who someday choose to take a job through us. We believe our research lab will have a halo effect, attracting even more great people to our educational retreat, and that some of them will choose to take jobs through us, thereby funding both the retreat and research.
+
+We know that in the world of research, a year is the blink of an eye. We see today as a small step in a long path to building a full lab and doing meaningful research. Fortunately or not, we have limited capital and a tight cash flow: We are simply not yet able to fund, for example, multiple people for decade-long fellowships. This limits our short-term options but not our long-term ambition. Our constraints also bring some benefits: They force us to focus, and ensure that if we do build a successful lab, it will be financially sustainable.
+
+Like most things we do, this will be an experiment, and we expect to make many mistakes and adjustments as we go. Nevertheless, we are committed to supporting research at RC, both because we think it will make RC significantly better, and because we think it is a good and interesting thing to attempt.
+
+Some of the notes from these discussions are so good that I’m convinced they should be edited and compiled into a long blog post or a short book.↩
+

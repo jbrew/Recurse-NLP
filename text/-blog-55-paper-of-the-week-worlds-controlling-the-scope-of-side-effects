@@ -1,0 +1,58 @@
+This is part of our “Paper of the Week” series. For more info, check out our
+introductory blog post.
+
+This week’s paper is Worlds: Controlling the Scope of Side Effects by Alessandro Warth, Yoshiki Ohshima, Ted Kaehler and Alan Kay. It was presented at ECOOP 2011 and is based on part of Warth’s Ph.D. thesis Experiments with Programming Languages. When this paper was published, all four authors were researchers at Viewpoints Research Institute.
+
+Worlds was submitted by Hacker School resident David Nolen, who shared the following:
+
+Alan Kay’s VPRI group published this fascinating paper on a general pattern for
+controlling the scope of side effects. The formulation is object oriented in
+flavor but the observations and results are significant and may be arrived at
+by other means. Specifically, in the closing “Related” section they note that
+Worlds deliver the same benefits made possible by persistent data structures.
+This is one of the key papers that inspired my work around
+Om.
+
+Compare the undo implementation I described for an Om based
+TodoMVC and the undo
+implementation described in section 3.2. They are surprisingly similar (I had
+not actually read the source in this section when devising my example). In
+section 3.3 they describe extension methods - this is available in
+ClojureScript via specify. You can think of specify as an instance level
+type class extension that returns a new extended (equal) value. Internally Om
+uses this feature all over the place. In ClojureScript extension methods are
+very high performance - deep cloning with persistent data structures is O(1).
+
+I think in the long run this paper will likely be one of the seminal references
+for anyone trying to reconcile the powerful modularity of stateful Object
+Oriented programming with the stunning properties derived from value oriented
+functional programming - particularly when attempting to apply these strategies
+to the computer programming domains that still exhibit staggering complexity at
+scale (this is what VPRI is interested in) - namely UI programming.
+
+Here’s the abstract from the paper:
+
+The state of an imperative program—e.g., the values stored in global and
+local variables, arrays, and objects’ instance variables—changes as its
+statements are executed. These changes, or side effects, are visible globally:
+when one part of the program modifies an object, every other part that holds a
+reference to the same object (either directly or indirectly) is also affected.
+This paper introduces worlds, a language construct that reifies the notion of
+program state and enables programmers to control the scope of side effects. We
+investigate this idea by extending both JavaScript and Squeak Smalltalk with
+support for worlds, provide examples of some of the interesting idioms this
+construct makes possible, and formalize the semantics of property/field lookup
+in the presence of worlds. We also describe an efficient implementation
+strategy (used in our Squeak-based prototype), and illustrate the practical
+benefits of worlds with two case studies.
+
+Read Along is a way for you to participate in Paper of the Week. If you want
+to take part, all you have to do is read the paper, make something small in
+response (code or prose), and email
+us
+a link to what you made by noon Eastern Time next Monday.
+
+This week Brian Cobb wrote a reflection about the the Bayou paper with an explanation of the Write Log and the Undo Log. Thanks Brian!
+
+Happy reading!
+

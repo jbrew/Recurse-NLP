@@ -1,0 +1,34 @@
+Last summer and fall, Nick wrote two blog posts to answer one of the most common questions we hear from applicants: What do people actually do at the Recurse Center? We still don’t have a simple answer to that question; in fact, we hope we never will. Recursers have diverse backgrounds (we’ve had biologists, musicians, lawyers and CS grads, among many others), and work on an incredible variety of projects.
+
+To give folks interested in applying to the Recurse Center a better sense of what to expect, we thought we’d check in with the current batches to see what they’re currently working on.
+
+A point from Nick’s post that bears repeating is that everything written at the Recurse Center is open source, and everyone works on projects they choose for themselves based on their interests and what they want to learn.
+
+So, without further ado, here are twelve things people are currently doing at the Recurse Center:
+
+Develop new ways for programmers to communicate with their machines. Pam built MacVimSpeak, an OS X app that executes spoken Vim commands.
+
+Write a language. Sarah wrote Data Monster, a domain-specific language that transpiles to d3.js.
+
+Write a Regex Engine. Geoffrey built a simple Regex engine in Scala, and is now adding support for visualizing state machines.
+
+Build a view engine. Michelle has been working on Prismo, a front-end templating system for JavaScript which automatically keeps track of variable dependencies and only refreshes the part of the page that’s changed.
+
+Write a game. Noella is building a Python implementation of 2048, Aishwarya is writing Pacman in JavaScript, and Nat has been writing a variety of games in JavaScript.
+
+Make bots (and make it easier to make bots). Zulip (our internal chat system) bots are a popular project for Recursers. Nikki and Eric built DelayBot, Agustín has built PingBot, and Andrew has built robotbotbot, a platform to make it easier to create bots.
+
+Contribute to larger open source projects. Karthik has been working on a native remote desktop client for Guacamole, a clientless remote desktop gateway that supports standard protocols like VNC and RDP. Aditya and Ken contributed to Mozilla’s Servo browser engine project.
+
+Find new ways to analyze and visualize data. Alex is working on a Twitter word association project which allows users to search for words and find the terms most strongly correlated with them in recent tweets. Agustín is working on a Python package that scrapes data from Excel spreadsheets.
+
+Use programming to explore and share other interests. Cory is working on ComicGator, a webcomic aggregator. Mykola is building a live light sequencer that uses MIDI instruments to trigger LED animations, and Gonçalo is building Music Gist.
+
+Learn a new skill or language, or deepen knowledge of an old one. Yuta read The Little Schemer, and then wrote a Scheme interpreter. Mudit took a course on Compilers, and Pietro has been working through Learning Clojure. Anthony has been taking algorithms courses and created a datalogger android app which uploads to Amazon S3.
+
+Work with residents. Several Recursers started implementing the Paxos algorithm for solving consensus in a network of unreliable nodes after resident Neha Narula gave a talk about her work on databases and consistency. Resident Mark Dominus worked with Aditya on his Go implementation of Git and with Alex on her synthetic implementation of hashes in Python.
+
+Reflect on and share their experiences. Lots of Recursers keep journals and blog about their experiences, like Pam, Nat, Luna and Ahmed.
+
+If you got excited reading about the projects above or have been daydreaming about having enough time to learn a new language, design a game or work on your open source project, apply to the Recurse Center.
+

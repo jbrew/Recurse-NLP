@@ -1,0 +1,36 @@
+This is the first of what may become a series of posts highlighting Hacker Schoolers. The goal is to share more about the many paths people take before, during, and after Hacker School.
+
+Our first profile post is on Stephanie Samson, who’s a current Hacker Schooler in the Fall 1, 2014 batch. Steph kindly agreed to take 15 minutes out of her day to talk with me about what she did before Hacker School, and what she’s working on now.
+
+
+
+How did you start programming?
+
+I really started right around high school. I was working with the Santa Fe Institute mentoring middle school students about science and math, and that’s where I got my first exposure to programming. But I didn’t dive deeply into it until December of last year, when I went to a hackathon in Australia. I joined a team as a designer, but I started learning Ruby.
+
+What did you do next?
+
+I just spent a month focused on teaching myself Ruby, and then I decided to apply for some jobs. I never thought I’d get any offers, but I did. I worked at Gramercy Studios until August, when I came to Hacker School.
+
+What have you worked on at Hacker School so far?
+
+I’ve worked on a Scheme interpreter, a translation bot, and an API wrapper for Google Translate, all in Python. I’ve also been learning some more CS fundamentals, like recursion and linked lists, which I’ve found to be very helpful since prior to Hacker School I didn’t have any experience with more “computer science-y” stuff.
+
+When working on the Scheme interpreter I decided to try test-driven development. I would first write tests for the output that my interpreter should have for different inputs, and then make them pass. I was just getting started with TDD, and I was stressed about whether or not I was approaching it correctly, so I sat down with Zach, Tom and Jesse [facilitators and a fellow Hacker Schooler] and they helped me get on the right track.
+
+Now I’m trying to encourage Susan [a fellow Hacker Schooler], who’s also writing an interpreter, to use TDD.
+
+How come you chose to write an API wrapper?
+
+I wanted to make a translation bot for Zulip [Hacker School’s internal chat system]. And so I looked for an API wrapper for Google or Bing Translate, but I couldn’t find a good one, so I decided to make my own. It was a really interesting project for me because I’ve never made anything like it. I had to first understand what makes a good API wrapper, and so I had to read other people’s code for other API wrappers. The big lesson that I learned is to read other people’s code; I found this to be more helpful than even reading people’s blog posts about their projects. This is something I’ve definitely gotten better at Hacker School – reading other people’s code.
+
+How have you found pair programming with other people?
+
+I’ve really enjoyed pairing with people. It’s great to get to work with people who are genuinely curious, who want to become better programmers, and who aren’t judgemental. It’s great to be able to ask questions and not get a “well, actually” or have someone feign surprise. It’s also really helped me with concentration, and just focusing on one thing at a time. I think that’s more important than multitasking.
+
+What are you planning to work on next?
+
+I’m going to learn more about functional programming using Elm. There are several people here working on Elm, and I find the community really helps you learn faster. I made much faster progress with Python thanks to the people here, and I think the same will be true with Elm.
+
+Thanks to Stephanie Samson for being a wonderful part of the Hacker School community, and for taking the time to chat for this interview. If you’d like to join a supportive, energizing, and intellectually curious community, there’s still time to apply for our Winter 1 batch which begins on November 17th.
+

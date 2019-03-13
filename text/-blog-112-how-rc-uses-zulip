@@ -1,0 +1,60 @@
+The core of the Recurse Center is the community, and the core of our online community is Zulip, the open source real-time chat system.1
+
+We started using Zulip four years ago this month. Our original reasons for adopting it were straightforward: We wanted a private chat system that was persistent, easily searchable, and which supported syntax highlighting for code snippets. We also wanted full names and profile pictures to make it easier for people in our community to find each other, both online and in real life.
+
+Zulip gave us all the benefits above, along with a slew of others we hadn’t expected. Switching to Zulip has turned out to be one of the best decisions we’ve made, and it’s impossible to imagine RC today without it.
+
+One challenge is that it’s become increasingly hard to explain how RC works to potential applicants, since we’ve chosen to have a private Zulip server and so a lot of RC isn’t publicly accessible. This post aims to share an important part of RC that’s previously been nearly impossible to learn about without attending.
+
+RC is an educational institution with an integrated recruiting agency.2 We run full-time, in-person programming retreats in New York City. People come from around the world to spend six or twelve weeks programming together in a self-directed, collaborative, and supportive environment. The primary educational value comes from the participants themselves: It is peer-to-peer, which is why RC gets better as the community becomes larger and more diverse.
+
+While our retreats are in-person, online chat is a major part of RC. Participants use Zulip to ask and answer questions, get code review, and coordinate pairing sessions, reading groups, informal seminars, and countless other forms of collaboration. Zulip is even more essential for our alumni, who are in over 100 cities around the world but remain heavily involved thanks to Zulip.
+
+We have a Zulip instance (called a “realm”) with approximately 1,000 members, who send 1,000-2,000 messages on any given weekday. For those not familiar with it, Zulip uses a system of streams (think channels) and topics (think threads). For instance, we have a graphics stream, and recent topics include “OpenGL objects as process resources?” and “Three.js shaders.”
+
+Many of our streams are dedicated to specific subjects. We have streams for programming languages (e.g., python), tools (e.g., git), and domains (e.g., machine learning). But many of the most significant and widely used streams at RC don’t fall into one of those categories, and so I’d like to focus this post on them.
+
+Every day at 12:30am GMT, a bot called “Alumni Bot” starts a new topic for that day’s checkins. As past Recursers and residents around the world start their days, many chime in with updates about what they’re working on.
+
+
+Many alumni post daily updates on our alumni-checkins stream. Laura is currently stationed in Antarctica. Shared with permission.
+
+Like many of the best parts of RC, alumni-checkins was started by a Recurser. The stream has been so successful that we created a similar stream for current Recursers. We now have a checkins stream where people currently attending RC can share what they’re working on, what they’re stuck with, what they did the day before, etc. Here’s an example:
+
+
+Some Recursers choose to post daily checkins to keep themselves on track, find collaborators, and get help. Shared with permission.
+
+This stream is for getting feedback on writing. It’s most commonly used for drafts of blog posts, but it’s also used for conference proposals, talks, papers, and resumes. This stream works remarkably well, and nearly everyone who asks for it gets helpful review and feedback.
+
+
+Recursers give each other constructive feedback on the writing review stream. This request got feedback in under 30 minutes. Shared with permission.
+
+This stream is powered by a blog aggregator (created by Recursers and appropriately named Blaggregator), which automatically posts links when Recursers who have opted-in post new blog posts. Each post gets linked under a new topic, which makes for easy, filterable discussion.
+
+
+Recursers have built a bot to automatically share new posts from the community. Shared with permission.
+
+The RSVPs stream is monitored by RSVPBot, an open source bot (authored by an RC alum) that supports creating and RSVPing to events. It also integrates with our Google Calendar, and it can be used to ping everyone attending an event when the event’s about to start.
+
+
+A Recurser uses RSVPBot to set up a new event. Shared with permission.
+
+This stream is dedicated to sharing our victories, from “my pull request was accepted” to “I finally figured out this bug” to “I’m having a baby!”
+
+
+Recursers share personal successes on our Victory stream. Shared with permission.
+
+We also have non-default, opt-in streams like politics. Our community is focused on programming and becoming better programmers. But Recursers establish close bonds with each other and have wildly diverse interests beyond programming. Naturally, people want to discuss lots of non-programming things, some of which can be contentious or just distracting to others. To accommodate this without detracting from our primary goal (making a great place to become a better programmer), we have opt-in streams, like politics.
+
+This post was challenging to write because I could only highlight a few of the tens of thousands of messages Recursers exchange each month, and which comprise our online community. Furthermore, like all of RC, both the Zulip software and how RC uses Zulip are constantly changing and far from perfect. There are lots of things we’d like to improve or try, from better integrating Zulip with the rest of RC’s internal software to introducing moderators.
+
+We plan to write more about those things, hopefully before another four years pass.
+
+You can read about Zulip’s open sourcing and RC’s involvement here.↩
+
+
+RC is free to attend, and people are welcome regardless of if they’re interested in new jobs (in fact, our admissions process explicitly ignores whether people want or can get a job in the US).
+
+For people who are interested in new programming jobs, either immediately after RC or years later, we offer a range of recruiting services from individual counseling to interview prep to negotiation advice.↩
+
+

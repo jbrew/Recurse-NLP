@@ -1,0 +1,28 @@
+This is part of our “Paper of the Week” series. For more info, check out our
+introductory blog post.
+
+After an extended New Year’s break, Paper of the Week is back! This week’s paper is Xen and the Art of Virtualization by Paul Barham from Microsoft Research, Boris Dragovic, Keir Fraser, Steven Hand, Tim Harris, Alex Ho, Ian Pratt, and Andrew Warfield from the University of Cambridge Computer Laboratory, and Rolf Neugebauer from Intel Research. It was presented at the 2003 ACM Symposium on Operating Systems Principles.
+
+This paper introduces Xen, a virtual machine monitor, or hypervisor, that allows you simultaneously and efficiently run multiple operating systems on a single piece of hardware. Twelve years after this paper was published, Xen is now a critical piece of Internet infrastructure and powers many services, including Amazon EC2. Even this blog is run on top of Xen.
+
+Xen and the Art of Virtualization was recommended by Hacker School resident Michael Lee, who shared the following:
+
+Part of what I like about this paper comes from impact: Xen is wildly successful and deployed all over the place. Part of it comes from the clever use of ring 1 as a way to deprivilege the guest OS. And part of it comes from the great performance they’re able to get out of the system. In my opinion, one of the key insights is realizing when it is alright to ask the developer to modify their system. In the case of Xen, they only ask the OS developer to make modifications and ensure compatibility for the wider legacy software. In doing so, they were able to attain much better performance, side step many of the difficulties presented when virtualizing x86, and even make some of the hardware interfaces cleaner for the OS developers to help ease the transition.
+
+Here’s the abstract:
+
+Numerous systems have been designed which use virtualization to subdivide the ample resources of a modern computer. Some require specialized hardware, or cannot support commodity operating systems. Some target 100% binary compatibility at the expense of performance. Others sacrifice security or functionality for speed. Few offer resource isolation or performance guarantees; most provide only best-effort provisioning, risking denial of service.
+
+This paper presents Xen, an x86 virtual machine monitor which allows multiple commodity operating systems to share conventional hardware in a safe and resource managed fashion, but without sacrificing either performance or functionality. This is achieved by providing an idealized virtual machine abstraction to which operating systems such as Linux, BSD and Windows XP, can be ported with minimal effort.
+
+Our design is targeted at hosting up to 100 virtual machine instances simultaneously on a modern server. The virtualization approach taken by Xen is extremely efficient: we allow operating systems such as Linux and Windows XP to be hosted simultaneously for a negligible performance overhead — at most a few percent compared with the unvirtualized case. We considerably outperform competing commercial and freely available solutions in a range of microbenchmarks and system-wide tests.
+
+Read Along is a way for you to participate in Paper of the Week. All you have
+to do is read the paper, make something small in response (code or prose), and
+email us
+a link to what you made by noon Eastern Time next Monday.
+
+The last Paper of the Week was Open, extensible object models by Ian Piumarta and Alessandro Warth. Here are this week’s Read Alongs:
+
+Happy reading!
+

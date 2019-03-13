@@ -1,0 +1,45 @@
+This is part of our “Paper of the Week” series. For more info, check out our
+introductory blog post.
+
+This week’s paper is Literate Programming by Donald Knuth. It was published in the May 1984 issue of The Computer Journal.
+
+In this paper, Knuth introduces literate programming, a programming style where
+computer programs are written like essays with prose interleaved with code.
+Literate programming probably hasn’t caught on like Knuth had hoped when he
+wrote this, but it has a small, extremely dedicated following.
+
+Literate Programming was submitted by Hacker Schooler Waldemar Quevedo who shared the following:
+
+I like this paper a lot not only because it is written by Knuth and because
+it has one of the coolest quotable opening phrases I’ve seen: (“I believe that
+the time is ripe for significantly better…”) but also because it really shows
+what practicing literate programming does to you if you are to practice it.
+
+In this paper, Knuth announces (maybe a bit too prematurely) about better
+times which are coming to the practices of software development based on his
+experiences of using the WEB system to craft his software.
+
+By the end of the writing, Knuth shares how literate programming has consumed
+most of his workflow to the point that he sees little benefit of not using
+literate programming for any of his development.
+
+As an Org mode user, I was surprised how literate programming with Org Babel
+gradually became the development environment I felt the most comfortable
+working with.
+
+The abstract below doesn’t do justice to Knuth’s enthusiasm for literate
+programming, nor the humor and clarity with which the paper is written. If
+you’re not convinced, spend 3 minutes reading through the introduction. You
+won’t be disappointed.
+
+The author and his associates have been experimenting for the past several years with a programming language and documentation system called WEB. This paper presents WEB by example, and discusses why the new system appears to be an improvement over previous ones.
+
+Read Along is a way for you to participate in Paper of the Week. All you have
+to do is read the paper, make something small in response (code or prose), and
+email us
+a link to what you made by noon Eastern Time next Monday.
+
+There were no Read Along submissions to last week’s paper. We’re looking forward to seeing the literate programs you write this week!
+
+Happy reading!
+

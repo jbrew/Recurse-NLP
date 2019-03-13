@@ -1,0 +1,40 @@
+We’re hiring a Product Engineer to help us build useful tools for RC’s operations and community. This is an opportunity to have a meaningful impact on a small number of people.
+
+Read on to learn more about RC, the software we write, the good and bad parts of this job, and our interview process.
+
+RC is a radically self-directed educational retreat integrated with a recruiting agency. The primary educational value of RC comes from Recursers themselves: RC is peer-to-peer, which is why it gets better as the community becomes larger and more diverse. RC is self-directed because we believe that education is “the product of the activity of the learner” (to quote John Holt), and that people learn most effectively when they are in control of and have responsibility for their own education.
+
+Experienced and new programmers come to RC from around the world to spend six or twelve weeks in New York focused on getting better at programming. Afterwards, alumni remain highly involved in the community, both offline and online.
+
+RC is funded through recruiting fees paid by partner companies when they hire alumni we refer to them. This allows us to keep RC free for everyone, and to fund need-based living expense grants for people from groups traditionally underrepresented in technology. There is no expectation or requirement that people who attend the retreat want or take a new job.
+
+This is a full-time job based in New York City. It is a “full-stack” role, by which we mean it involves writing backend code (primarily with Ruby and Rails), using and designing data models (primarily in Postgres), writing lots of JavaScript (primarily using ES6, React, and Redux), and writing HTML and CSS (primarily using Sass and following BEM). In addition to writing software, this job also involves helping to figure out how it should work and if we should even build it in the first place.
+
+From looking at our public website, it might not seem like we write or have much need for software. In fact, software is essential to many aspects of RC. Here are the three biggest areas to give you a sense of the type of software we write.
+
+Software for our community
+
+We have an internal directory where Recursers can browse and search for other members of the community, a collaborative calendar where anyone can organize or join events, and an open source web forum and mailing list (the latter has not seen much attention recently). We’ve also built a simple proxy so our community can easily create recurse.com subdomains. We use Zulip, the open source chat system, extensively, though RC employees have not yet contributed to it significantly (one thing we’d love to do is integrate with Zulip for single sign-on and shared user profiles).
+
+Advertising and admissions software
+
+We’ve built a simple “ad network” called RC Scout, which lets Recursers put a JavaScript snippet on their blogs and personal websites to advertise RC to potential applicants. (You can see a live example at the bottom of this blog post.)
+
+We have a team of RC alumni who work as contractors and conduct all our admissions interviews. We have custom software for every part of this process, including interview scheduling, payment tracking, and application management (commenting, grading, and updating the status of an application). Software also lets us form our initial impressions during application review based off pseudonyms instead of real names which reveal demographic information (e.g., “Dolphin Storm” instead of “Kimberly Lin”).
+
+(Our applicant-facing admissions software is sorely lacking. The take-home project mentioned below will be about this.)
+
+Software for our business
+
+The most extensive tools we’ve built so far have been for our recruiting business. Our core product for this is called Jobs Chat, a dashboard where people considering new jobs can organize their interview process and chat confidentially with RC faculty. It’s threaded by company and lets job seekers and faculty collaboratively schedule interviews, update where folks are in the process, and organize companies into groups. The admin interface for Jobs Chat lets RC help dozens of Recursers navigate their job searches simultaneously. This would be impossible without our software. Jobs Chat integrates with Asana (for task management) and Gmail, with an indispensable email composer and linter.
+
+Every job has downsides, and this one is no exception. People usually learn about these things after they join a company, but we think it’s important to highlight them in advance:
+
+Thankfully, we think this job has many more good things going for it:
+
+Lastly, it’s important that you share our core beliefs about education. Dissent and skepticism are great, but if we don’t all agree on enough of the big things we’ll never get anything done.
+
+We know the things above aren’t required to hire great people. RC’s current Product Engineer does not have a degree (he dropped out of a political science program), applied to RC with no previous connections, and did not have professional experience when we hired him. He is the most productive and enjoyable programmer we’ve ever worked with. He’s moving on to new things later this summer after working at RC for five years, and he has contributed to our company in more ways than we could possibly list.
+
+After each stage we’ll let you know whether or not we’d like to continue as quickly as possible (our goal is within one or two business days). If you’re advancing to the next stage, we may also give you feedback about what we thought you did well and what you could improve on for the next round.
+

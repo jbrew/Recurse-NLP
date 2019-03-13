@@ -1,0 +1,66 @@
+List comprehensions are a syntactic construct that allow you to create
+new lists in an elegant and concise way.
+
+Here’s a question, though: If your language did not support list
+comprehensions, what would it take to add them? For a language like
+Ruby, you may have to dig into the language implementation itself. If
+you’re using a Lisp, you can write a macro.
+
+Lisp macros allows you to transform your code at compile time. Macro
+calls are run before the rest of your code during a process called
+macro expansion. You define macros almost like any other function, except
+that the arguments to a macro are unevaluated Lisp code. Because Lisp
+code is just data, you can operate on it like any other data.
+
+This is how you can implement list comprehensions in eight lines of
+Clojure.
+
+I’ve been thinking about this macro for three days now, and it’s still
+terribly exciting to me. It’s the macro I wish I had seen when I was
+learning about them. It takes full advantage of Clojure at compile-time
+and uses both higher-order functions and recursion.
+
+Let’s see what it can do.
+
+At compile time, it is transformed into code that produces the correct
+result. It’s a pretty handy macro. We can see how it works by looking at
+some macro expansions.
+
+At its core, list-comp is just a recursive transformation. This is made
+obvious by looking at the first macroexpansion of a comprehension with
+nested bindings.
+
+If we simply assume that the inner call to list-comp does the right
+thing – that is, it successfully binds y to 0 and then 1 –
+then it is clear that this expansion works. The call to mapcat will
+take care of binding x properly, and then concatenate the results.
+This will work with an arbitrary level of nesting.
+
+What happens when we use the :when clause?
+
+If the condition is truthy, we execute the inner comprehension.
+Otherwise, when returns nil, which, when concatenated with some
+other list, returns that other list.
+
+However, the skeptical reader just noticed a possible wrench in the
+works. If :when wraps the recursive call, what happens when there is
+no recursive call left? That is, doesn’t everything break if :when is
+last form to appear in the bindings?
+
+Thankfully, it doesn’t. The base-case is not the case of a single
+binding pair, but instead the case of an empty set of bindings. Then, we
+just return the body’s result as a singleton list.
+
+This means that our :when clause can appear at the end of the bindings
+vector.
+
+And that’s all there is to it.
+
+A special thanks to Alan O'Donnell and
+Darius Bacon for joining me on the quest for
+the simplest list comprehension macro.
+
+Edit Jan 2, 2013: I should have mentioned this, but for posterity’s sake,
+Clojure comes with list comprehensions already built in. See Clojure’s for
+macro.
+

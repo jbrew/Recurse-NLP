@@ -1,0 +1,63 @@
+This is part of our “Paper of the Week” series. For more info, check out our
+introductory blog post.
+
+This week’s paper is The Power of Two Random Choices: A Survey of Techniques
+and
+Results
+by Michael Mitzenmacher, Andréa W.
+Richa and Ramesh
+Sitaraman. It was published
+in 2001 as part of the book Handbook of Randomized Computing.
+
+This week’s paper was submitted by Hacker School alum Dan Luu, who shared the following:
+
+I like this paper because it’s a really simple idea that’s quite powerful and
+generally applicable. It’s so simple I can even describe the key intuition in
+my summary. If you randomly throw n balls into n bins, the maximum number
+of balls in a single bin is approximately O(log n), with high probability.
+But if you take two random choices and place the ball in the bin with fewer
+balls, the maximum drops to O(log log n). The balls into bins model is a
+natural fit for scheduling / load balancing, hashing, and a number of other
+common problems. As a result, two random choices often turns out to be really
+effective despite its simplicity.
+
+It turns out this is also applicable to a wide variety of problems that don’t
+obviously map to balls / bins, like circuit routing and random
+graphs
+(although applying it to things that aren’t “obviously” balls/bins problems
+isn’t always simple).
+
+This week’s paper doesn’t have an abstract, so here’s the introduction:
+
+To motivate this survey, we begin with a simple problem that demonstrates a
+powerful fundamental idea. Suppose that n balls are thrown into n bins,
+with each ball choosing a bin independently and uniformly at random. Then the
+maximum load, or the largest number of balls in any bin, is approximately log
+n / log log n with high probability. Now suppose instead that the balls are
+placed sequentially, and each ball is placed in the least loaded of d ≥ 2
+bins chosen independently and uniformly at random. Azar, Broder, Karlin, and
+Upfal showed that in this case, the maximum load is log log n / log d +
+Θ(1) with high probability.
+
+The important implication of this result is that even a small amount of choice
+can lead to drastically different results in load balancing. Indeed, having
+just two random choices (i.e., d = 2) yields a large reduction in the maximum
+load over having one choice, while each additional choice beyond two decreases
+the maximum load by just a constant factor. Over the past several years, there
+has been a great deal of research investigating this phenomenon. The picture
+that has emerged from this research is that the power of two choices is not
+simply an artifact of the simple balls-and-bins model, but a general and robust
+phenomenon applicable to a wide variety of situations. Indeed, this two-choice
+paradigm continues to be applied and refined, and new results appear
+frequently.
+
+Read Along is a way for you to participate in Paper of the Week. If you want
+to take part, all you have to do is read the paper, make something small in
+response (code or prose), and email
+us
+a link to what you made by noon Eastern Time next Monday.
+
+There weren’t any submissions for last week’s paper. We’re excited to get some good ones next week.
+
+Happy reading!
+

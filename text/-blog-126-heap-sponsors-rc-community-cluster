@@ -1,0 +1,20 @@
+We’re happy to share that RC now has a cluster of four powerful servers. These machines are freely available to anyone in the RC community to use for their projects, exploration, and research, thanks to the generous sponsorship of Heap.
+
+Our goal is for RC to be the best place to become a better programmer, and having this cluster helps us achieve this by enabling Recursers to do things that would be challenging or impossible with just a laptop.
+
+Our initial cluster has publicly routable IP addresses, 48 cores, 64GB of RAM, 2 GPUs, and 2TB of solid state disk space.
+
+
+
+Building this cluster makes RC better by giving Recursers free access to powerful computers, something we haven’t been able to do before. The resources RC has always provided — things like supportive peers and space for focused work — make it a great place to become a better programmer, but there are some kinds of projects that become much easier with access to more powerful computers than just your laptop. This cluster will make it easier for Recursers to learn and work with distributed systems, benchmarking, fuzzing, machine learning, deployment and operations, and lots more.
+
+And like most of RC, this system will be driven by our community. Already, half a dozen Recursers have helped determine how the system should be set up, configured, and implemented. Thanks to their work, it already has automatic cross-cluster network file access and the drivers and software needed for GPU programming.
+
+If you’re already part of the RC community, you can choose a username, add your SSH key, and start using the cluster now.
+
+And if you’re not yet a Recurser, we encourage you to learn more about RC, and consider applying if we sound like a good fit.
+
+We’ve enjoyed a great relationship with Heap since they became an RC recruiting partner in 2015, and dozens of Recursers have praised their thoughtfully designed interview process. We’d like to thank them for sponsoring the cluster, and we’re looking forward to seeing what Recursers build and explore with this new resource.
+
+
+

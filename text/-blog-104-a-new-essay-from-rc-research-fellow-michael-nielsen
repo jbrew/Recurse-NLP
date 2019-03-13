@@ -1,0 +1,12 @@
+RC Research Fellow Michael Nielsen recently published an essay called Toward an exploratory medium for mathematics. The essay is about about developing user interfaces and data models that allow for semi-concrete reasoning – getting the computational and constraint-solving benefits of a computer without losing the flexibility of paper and pencil.
+
+Michael writes:
+
+In discussions of systems of reasoning it is sometimes assumed that the informal, intuitive systems used by humans are things to be “fixed up”, turned into so-called proper, rigorous reasoning. If the purpose of reasoning were merely verifying correctness, then that would be a reasonable point of view. But if the purpose of reasoning is exploration and discovery, then it is wrong. Exploration and discovery require a logic that is different to, and at least as valuable as, conventionally “correct” reasoning…
+
+Alan Kay has asked “what is the carrying capacity for ideas of the computer?” We may also ask the closely related question: “what is the carrying capacity for discovery of the computer?” In this essay we’ve made progress on that question using a simple strategy: develop a prototype medium to represent mathematics in a new way, and carefully investigate what we can learn when we use the prototype to attack a serious mathematical problem…
+
+A powerful medium reifies the deepest ideas we have about a subject: it becomes an active carrier for those ideas. And to the extent it is successful in reifying those ideas, mastering the medium becomes the same as mastering the subject. In this view, designing exploratory media is about designing tools which can transform and extend our ability to think, create, and discover.
+
+You can read the full essay on Michael’s website and learn more about RC Research on our blog.
+

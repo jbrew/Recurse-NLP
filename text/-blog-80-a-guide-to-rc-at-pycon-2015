@@ -1,0 +1,34 @@
+PyCon 2015 begins this week, and we’re excited to have many Recurse Center employees, alumni, and residents attending and presenting. We thought it would be nice to collect all the talks by Recursers in one place as a reference for our community and others interested in learning more about it.
+
+In addition to the talks below, the Recurse Center will be at booth #718, where you will find RC employees Zach Allaun and Thomas Ballinger, as well as an ever-changing line-up of past Recursers who will be happy to answer any questions you have about RC. Come say hi!
+
+To kick things off with a healthy dose of energy and excitement, Julia Evans (RC Fall 2013) will be giving the opening statements on Friday at 9am.
+
+Later in the morning, long-time RC resident Jessica McKellar will be going on “a weird and wonderful compiler journey from RPython to C to JavaScript” in her talk about Python in the browser.
+
+In the afternoon, Miriam Lauter (RC Summer 2, 2014) will be talking about how to make your own smart air conditioner using Python and a Raspberry Pi.
+
+Amy Hanlon (RC Winter 2014) will investigate a series of Python Wats related to identify, mutability, and scope at 10:50am.
+
+At the same time, Julia Evans will return to show how learning about systems programming and kernels can help you become more effective with your everyday Python debugging.
+
+Directly after that, Andreas Dewes (RC Winter 2014) will talk about learning from others’ mistakes and the benefits and pitfalls of statically analyzing Python code.
+
+Next up, Nina Zakharenko (RC Summer 2013) will talk about technical debt and review some case studies and ways to pay it down.
+
+After lunch, Allison Kaptur (facilitator emeritus and RC Summer 2012) will dive into the CPython interpreter to track down a mysterious bug in Byterun, a Python interpreter written in Python. Allison will also be doing a second talk immediately following about understanding CPython without reading the code.
+
+Simultaneously, past RC Resident Glyph will discuss the ethical consequences of our collective activities.
+
+Past RC resident Brandon Rhodes will explore bytearrays and whether or not their performance gains are worth their added complexity.
+
+Sasha Laundy (RC Winter 2013) will share advice for developing two complementary and perennially useful skills: giving and getting technical help.
+
+Past RC resident Jacob Kaplan-Moss will help kick off the day with a keynote talk at 9:20am.
+
+Decky Coss (RC Winter 2014) will be presenting a poster about building a Python MIDI controller during the poster session from 10am to 1:10pm.
+
+Finally, Thomas Ballinger (facilitator and RC Winter 2012) will do some terminal whispering Sunday afternoon and will show how you can build and modify terminal-based tools and talk to your terminal from scratch.
+
+Founded in 2011, the Recurse Center is a free, self-directed, educational retreat for people who want to get better at programming, whether they’ve been coding for three decades or three months. The retreat is free for everyone, and offers need-based living-expense grants up to $7,000 to women and people from groups traditionally underrepresented in programming.
+

@@ -1,0 +1,18 @@
+Today, as the result of an ambitious Dropbox Hack Week project, Zulip, the real-time group chat app acquired by Dropbox last year, is being released as open source software.  We use Zulip every day at RC, and with today’s release, we’re excited to kick off a few experiments in collaboration with the original Zulip team and Dropbox in order to help build a sustainable open source community around the project. As part of that effort, Zulip cofounder and current Dropboxer Tim Abbott will be spending a week at RC early next month.
+
+We switched to Zulip from IRC both for our internal company communications and for the whole RC community nearly three years ago, and it’s since grown into an indispensable part of RC. We now have about 700 people on our internal Zulip realm, and they log in from all over the globe. Zulip has allowed RC alumni who live in other countries and timezones to ask and answer technical questions, get and give advice, and stay connected to the community long after their time at RC has ended. And we strongly prefer Zulip to other options for several reasons – its message threading being a key one. It’s not an exaggeration to say Zulip has made RC a stronger community and a much better place to get programming help and advice.
+
+We’re especially excited about this announcement because we think RC is in a unique position to help build a healthy open source community around Zulip. Zulip is institutionally important to us, and we have an alumni network of hundreds of programmers who use it regularly, many of whom are excited to make it better.
+
+A perennial challenge of nearly all open source projects is finding and on-boarding contributors. Below are three things RC and Dropbox are doing to help Zulip get off the ground as an open source project.
+
+First, Dropbox flew two RC alumni, Nemanja Stanarevic and Jonathan Dahan, out for their Hack Week last month. Nemanja and Jonathan joined Neeraj Wahi (an RC alum and new Dropboxer) and a team of Dropbox employees to help prepare Zulip for release as open source. Our alumni were among the nine guests, including folks from several other Zulip customers, who Dropbox hosted for the week and who contributed to open sourcing Zulip. In the process, Nemanja and Jonathan also began learning Zulip’s architecture and code base, and I’m happy to say they both plan to continue working on the project going forward.
+
+Second, Zulip cofounder and chief architect Tim Abbott will be in residence at RC for the week of October 12th. During his time here, Tim will be giving a technical overview of Zulip’s architecture, live-coding a new feature, and preparing a list of high-value projects for people interested in contributing. Tim’s goal in coming to RC is to help spread knowledge of Zulip’s internals beyond the handful of Dropbox employees currently familiar with them.
+
+Lastly, RC facilitator and alumna Allie Jones plans to hack on Zulip at RC, both on her own and with interested Recursers. Allie already has a local build running, and has begun making experimental changes to speed up parts of the interface.
+
+Keeping an open source project alive and healthy requires good documentation, instructions for setting up and running the code, and people willing to help build a community around it. We’re thrilled that Dropbox and the Zulip team have invested the time and energy needed to release Zulip in a thoughtful and responsible way, and we’re excited to do our part in making it a successful open source project.
+
+We would like to thank Leo Franchi (F'12), Jessica McKellar, Tim Abbott, Jeff Arnold, and Waseem Daher at Dropbox for all their work on Zulip and support of RC over the years.
+

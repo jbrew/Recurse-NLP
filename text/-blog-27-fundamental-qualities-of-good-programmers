@@ -1,0 +1,90 @@
+At Hacker School, we spend a lot of time thinking about what it means to be a
+good programmer. My goal with this post is to share some of our thinking on
+this topic and to hopefully help people better understand Hacker School in the
+process.
+
+First, a quick note: This is just one way to think about becoming a better
+programmer. It’s almost certainly not the only way to think about it and you
+may find some other way more useful to you.
+
+This is a list of what we believe are fundamental qualities that all good
+programmers share. It is based on our observations from the more than two years
+that we’ve been running Hacker School. It’s not perfect—there are
+qualities that we’re missing and there’s some overlap between the ones that we
+have listed—but it’s been very useful for us so far. We expect that it
+will grow and change as Hacker School does.
+
+Programming languages are just tools for telling computers what to do. It is
+better to have a strong command of one than a weak command of a bunch. Good
+programmers have at least one language that they know inside and out and can
+reach for to easily solve whatever problem is at hand.1
+
+Being a systematic debugger means that you have a good mental model of your
+code and that when you run into a bug—that is, when your program doesn’t
+work as expected—you generate hypotheses about what’s wrong, instead of
+blindly changing things until your program works.
+
+Most programs interact with the outside world, so having an understanding of
+your environment is important. This includes the I/O and concurrency primitives
+that your language provides, the way your language finds, loads, compiles, and
+runs code, the way that your program gets info from the outside world (e.g.,
+environmental variables and command line arguments), and the way your OS
+handles file access, device access, search paths, etc.
+
+Knowing how your hardware works makes it easier to write efficient programs.
+Even if you are writing programs in a higher level language, understanding
+things like the call stack, the MMU, the cost of context switching, the memory
+hierarchy, and the characteristics of the network you are connected to will
+inform your programming decisions.
+
+A lot of people confuse algorithmic thinking with knowing a bunch of particular
+algorithms like quicksort or binary search.
+
+An algorithm is a set of steps describing a calculation. Much of programming is
+simply describing algorithms to a computer. Being comfortable with algorithmic
+thinking means having good intuition for how to store and manipulate your data,
+being able to think both iteratively and recursively, and being able to reason
+about the performance characteristics of the code you write.
+
+Programming is not as math-heavy as many non-programmers think, but as you
+start tackling tougher problems, you’ll find that being comfortable with math
+comes in handy. Many interesting areas of programming like computer graphics,
+signal processing, and cryptography require a deep understanding of math. Even
+just measuring the performance of your code can require some statistical
+thinking.
+
+It is hard to imagine a good programmer who cannot write a program from
+scratch.
+
+Most of the time you’re not writing a program from scratch. Instead,
+you’re working with other programmers on a large project.
+
+Well-structured code allows you to easily navigate up and down through layers
+of abstraction. In a well-structured program, you can ignore implementation
+details when they don’t matter and modify the implementation without having to
+make changes in all the places where the code is used.
+
+Code radius is a term that Alan came up with.
+Your code radius is the size of the largest program you’re comfortable writing
+from scratch. Increasing your code radius takes practice. The structural tools
+that work well for a 500 line program are not necessarily the same as the ones
+that work for a 5,000 line program or a 50,000 line program.
+
+Often times it’s faster to try out a few different solutions and decide which
+is the most elegant than to figure out the correct one just by thinking about
+it. If you find “quickly” to be too subjective, consider the inverse: It’s hard
+to imagine a good programmer who is slow.
+
+Good programmers use their tools effectively. This doesn’t mean you have to use
+all the tools available to you in order to be a good programmer—not
+everyone likes IDEs and plenty of good programmers prefer printf to a
+debugger—just that good programmers are productive with the tools they
+choose to use.
+
+
+      This is not to say that all programming languages are equivalent, that
+they are equally good at all tasks, or that it isn’t worth learning more than
+one programming language. Just that all good programmers have a deep
+understanding of at least one language.↩
+
+

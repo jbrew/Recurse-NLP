@@ -1,0 +1,170 @@
+Coming from a background in higher-level languages like Ruby, Scheme, or Haskell, learning C can be challenging. In addition to having to wrestle with C’s lower-level features like manual memory management and pointers, you have to make do without a REPL. Once you get used to exploratory programming in a REPL, having to deal with the write-compile-run loop is a bit of a bummer.
+
+It occurred to me recently that I could use gdb as a pseudo-REPL for C. I’ve been experimenting with using gdb as a tool for learning C, rather than merely debugging C, and it’s a lot of fun.
+
+My goal in this post is to show you that gdb is a great tool for learning C. I’ll introduce you to a few of my favorite gdb commands, and then I’ll demonstrate how you can use gdb to understand a notoriously tricky part of C: the difference between arrays and pointers.
+
+Start by creating the following little C program, minimal.c:
+
+Note that the program does nothing and has not a single printf statement.1 Behold the brave new world of learning C with gdb!
+
+Compile it with the -g flag so that gdb has debug information to work with, and then feed it to gdb:
+
+You should now find yourself at a rather stark gdb prompt. I promised you a REPL, so here goes:
+
+Amazing! print is a built-in gdb command that prints the evaluation of a
+C expression. If you’re unsure of what a gdb command does, try running help
+name-of-the-command at the gdb prompt.
+
+Here’s a somewhat more interesting example:
+
+I’m going to ignore why 2147483648 == -2147483648; the point is that even
+arithmetic can be tricky in C, and gdb understands C arithmetic.
+
+Let’s now set a breakpoint in the main function and start the program:
+
+The program is now paused on line 3, just before i gets initialized.Interestingly, even though i hasn’t been initialized yet, we can still lookat its value using the print commnd:
+
+In C, the value of an uninitialized local variable is undefined, so gdb might print something different for you!
+
+We can execute the current line with the next command:
+
+Variables in C label contiguous chunks of memory. A variable’s chunk is
+characterized by two numbers:
+
+The numerical address of the first byte in the chunk.
+
+The size of the chunk, measured in bytes. The size of a variable’s
+chunk is determined by the variable’s type.
+
+One of the distinctive features of C is that you have direct access to a
+variable’s chunk of memory. The & operator computes a variable’s address,
+and the sizeof operator computes a variable’s size in memory.
+
+You can play around with both concepts in gdb:
+
+In words, this says that i‘s chunk of memory starts at address 0x7fff5fbff5b4 and takes up four bytes of memory.
+
+I mentioned above that a variable’s size in memory is determined by its type, and indeed, the sizeof operator can operate directly on types:
+
+This means that, on my machine at least, int variables take up fourbytes of space and double variables take up eight.
+
+Gdb comes with a powerful tool for directly examing memory: the x
+command. The x command examines memory, starting at a particular address.
+It comes with a number of formatting commands that provide precise control
+over how many bytes you’d like to examine and how you’d like to print them;
+when in doubt, try running help x at the gdb prompt.
+
+The & operator computes a variable’s address, so that means we can feed &i to x and thereby take a look at the raw bytes underlying i’s value:
+
+The flags indicate that I want to examine 4 values, formatted as hex numerals, one byte at a time. I’ve chosen to examine four bytes because i’s size in memory is four bytes; the printout shows i’s raw byte-by-byte representation in memory.
+
+One subtlety to bear in mind with raw byte-by-byte examinations is that on Intel machines, bytes are stored in “little-endian” order: unlike human notation, the least significant bytes of a number come first in memory.
+
+One way to clarify the issue would be to give i a more interesting value and then re-examine its chunk of memory:
+
+The ptype command might be my favorite command. It tells you the type of a C expression:
+
+Types in C can get complex
+but ptype allows you to explore them interactively.
+
+Arrays are a surprisingly subtle concept in C. The plan for this section
+is to write a simple program and then poke it in gdb until arrays start to
+make sense.
+
+Code up the following arrays.c program:
+
+Compile it with the -g flag, run it in gdb, then next over the
+initialization line:
+
+At this point you should be able to print the contents of a and
+examine its type:
+
+Now that our program is set up correctly in gdb, the first thing we should
+do is use x to see what a looks like under the hood:
+
+This means that a’s chunk of memory starts at address
+0x7fff5fbff5dc.  The first four bytes store a[0],
+the next four store a[1], and the final four store
+a[2]. Indeed, you can check that sizeof knows
+that a’s size in memory is twelve bytes:
+
+At this point, arrays seem to be quite array-like. They have their own
+array-like types and store their members in a contiguous chunk of memory.
+However, in certain situations, arrays act a lot like pointers! For instance,
+we can do pointer arithmetic on a:
+
+In words, this says that a + 1 is a pointer to an int and holds the
+address 0x7fff5fbff570. At this point you should be reflexively passing
+pointers to the x command, so let’s see what happens:
+
+Note that 0x7fff5fbff570 is four more than
+0x7fff5fbff56c, the address of a’s first byte in
+memory. Given that int values take up four bytes, this means
+that a + 1 points to a[1].
+
+In fact, array indexing in C is syntactic sugar for pointer arithmetic:
+a[i] is equivalent to *(a + i). You can try this
+in gdb:
+
+We’ve seen that in some situations a acts like an array and in others it
+acts like a pointer to its first element. What’s going on?
+
+The answer is that when an array name is used in a C expression, it
+“decays” to a pointer to the array’s first element. There are only two
+exceptions to this rule: when the array name is passed to
+sizeof and when the array name is passed to the &
+operator.2
+
+The fact that a doesn’t decay to a pointer when passed to the
+& operator brings up an interesting question: is there a
+difference between the pointer that a decays to and
+&a?
+
+Numerically, they both represent the same address:
+
+However, their types are different. We’ve already seen that the decayed
+value of a is a pointer to a’s first element;
+this must have type int *. As for the type of
+&a, we can ask gdb directly:
+
+In words, &a is a pointer to an array of three integers.
+This makes sense: a doesn’t decay when passed to
+&, and a has type int [3].
+
+You can observe the distinction between a’s decayed value and
+&a by checking how they behave with respect to pointer
+arithmetic:
+
+Note that adding 1 to a adds four to
+a’s address, whereas adding 1 to
+&a adds twelve!
+
+The pointer that a actually decays to is
+&a[0]:
+
+Hopefully I’ve convinced you that gdb a neat exploratory environment for
+learning C. You can print the evaluation of expressions,
+examine raw bytes in memory, and tinker with the type system
+using ptype.
+
+If you’d like to experiment further with using gdb to learn C, I have a
+few suggestions:
+
+Use gdb to work through the Ksplice pointer challenge.
+
+Investigate how structs are stored in memory. How do they compare to
+arrays?
+
+Use gdb’s disassemble command to learn assembly programming! A
+particularly fun exercise is to investigate how the function call stack
+works.
+
+Check out gdb’s “tui” mode, which provides a grahical ncurses layer on
+top of regular gdb. On OS X, you’ll likely need to install gdb from
+source.
+
+Alan is a facilitator at Hacker School. He’d like to thank David Albert, Tom Ballinger, Nicholas Bergson-Shilcock, and Amy Dyer for helpful feedback.
+
+Curious about Hacker School? Read about us and apply to our fall batch.
+

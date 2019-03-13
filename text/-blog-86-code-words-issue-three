@@ -1,0 +1,22 @@
+We’re excited to announce that Issue Three of Code Words, our quarterly publication about programming, is now online! This issue features writing from five current and past Recursers:
+
+Aditya Mukerjee (RC Spring 1, 2015) illuminates the world of Git packfiles in Unpacking Git packfiles.
+
+Michelle Steigerwalt (RC Spring 1, 2015) demonstrates a way to design more straightforward APIs without sacrificing performance in Pseudosynchronous JavaScript.
+
+Current Recurser and former site reliability engineer Nat Welch (RC Spring 2, 2015) explores denial-of-service attacks and how to protect against them in DDoS and you.
+
+Decky Coss (RC Winter 2014) introduces Lass, her Lua framework for modular game programming in Making modular videogames.
+
+And finally, in The algebra (and calculus!) of algebraic data types, Joel Burget (RC Spring 1, 2015) explores the connection between traditional algebra and algebraic data types.
+
+In addition to all of the writers, we’d like to thank Aki Yamada (RC Summer 2013), Dan Luu (RC Winter 2013), Stephanie Losi (RC Summer 2, 2015), Darius Bacon (RC Fall 2012), Danielle Pham (RC Summer 1, 2014), Jari Takkala (RC Fall 2013), Travis McDemus (RC Summer 2013), and Mike Walker (RC Fall 2013) for all their careful editing.
+
+Code Words is written and edited by the Recurse Center community. Like the Recurse Center itself, we aim to make Code Words accessible and useful to both new and seasoned programmers, and to share the joyful approach to programming and learning that typifies Recursers.
+
+I’d also like to share a bit more about our process. Code Words exists because of the hard work of members of our community, and it is important to us that they are compensated for their work. And so I am excited to announce that starting with this issue, we are now paying writers and editors a stipend for each piece they work on for Code Words.
+
+Code Words contributors retain the copyrights to their work, and provide their essays under the terms of the Creative Commons BY-NC-SA 4.0 license.
+
+If you’d like to receive updates about new issues and news about the Recurse Center, sign up for our mailing list.
+

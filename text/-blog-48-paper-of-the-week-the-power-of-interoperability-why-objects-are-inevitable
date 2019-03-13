@@ -1,0 +1,61 @@
+This is part of our “Paper of the Week” series. For more info, check out our
+introductory blog post.
+
+This week’s paper is The Power of Interoperability: Why Objects Are
+Inevitable by
+Jonathan Aldrich an Associate Professor at
+Carnegie Mellon University. It was published in Onward! Essays,
+2013
+
+I submitted this paper because it’s a good companion to last
+week’s. Aldrich argues that the essential thing
+about objects is that they can provide services that operate at a higher level
+than just data abstraction. I don’t think this paper invalidates last week’s.
+It’s perspective is different and complimentary.
+
+This paper also draws on The Early History Of
+Smalltalk by Alan
+Kay, which could easily be called The
+Early History of Object-Oriented Programming. Aldrich’s perspective on objects
+seems much closer to Kay’s original ideas than Cook’s does.
+
+When I found Aldrich’s paper on the front page of Hacker News last week, I had
+just finished reading Kay’s. If you have time, Kay’s paper is a nice companion
+to this one.
+
+At the suggestion of Hacker Schooler Leah Hanson,
+we’re going to be posting the abstract from each paper to whet your appetite.
+Here’s this week’s:
+
+Three years ago in this venue, Cook argued that in their essence, objects are
+what Reynolds called procedural data structures. His observation raises a
+natural question: if procedural data structures are the essence of objects, has
+this contributed to the empirical success of objects, and if so, how?
+
+This essay attempts to answer that question. After reviewing Cook’s definition,
+I propose the term service abstractions to capture the essential nature of
+objects. This terminology emphasizes, following Kay, that objects are not
+primarily about representing and manipulating data, but are more about
+providing services in support of higher-level goals. Using examples taken from
+object-oriented frameworks, I illustrate the unique design leverage that
+service abstractions provide: the ability to define abstractions that can be
+extended, and whose extensions are interoperable in a first-class way. The
+essay argues that the form of interoperable extension supported by service
+abstractions is essential to modern software: many modern frameworks and
+ecosystems could not have been built without service abstractions. In this
+sense, the success of objects was not a coincidence: it was an inevitable
+consequence of their service abstraction nature.
+
+Read Along is a way for you to participate in Paper of the Week. If you want
+to take part, all you have to do is read the paper, make something small in
+response (code or prose), and email
+us a link of what you make by noon
+Eastern Time next Monday.
+
+We’d we’d love to get your feedback on what changes we could make to Paper of
+the Week to make it even more likely that you’ll submit a Read Along. If there
+are things we could change to make PotW more welcoming, please let us
+know.
+
+Happy reading!
+

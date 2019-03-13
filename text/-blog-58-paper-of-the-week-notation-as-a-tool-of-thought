@@ -1,0 +1,69 @@
+This is part of our “Paper of the Week” series. For more info, check out our
+introductory blog post.
+
+This week’s paper is Notation as a Tool of
+Thought by
+Kenneth Iverson. Iverson
+originally presented this paper as his Turing Award Lecture in 1979. It was
+published in the August 1980 issue of Communications of the ACM. The paper
+serves both as a primer on Iverson’s ideas about notation and an introduction
+to the APL programming language.
+
+If you’re living in the United States, this is a perfect paper to read on your
+trip home for Thanksgiving. If you’re not living in the US, it’s a perfect
+paper to read any time this week.
+
+Notation as a Tool of Thought was submitted by Hacker School resident
+R0ml, who shared the following:
+
+The paper argues for the importance of constructing a more sophisticated form
+of programming language than any of the ones which have achieved popularity.
+The paper is easily a hundred years ahead of its time – in that after reading
+this paper, you look at existing programming languages and realize how crude
+they are compared to the ones which will have to be developed in order to
+synthesize the mathematical and linguistic aspects of programming. Mathematica
+(or the Wolfram Language) is the only programming language in use today which
+implements these ideas.
+
+Iverson’s paper doesn’t have an abstract, so here’s an excerpt from the introduction:
+
+The importance of nomenclature, notation, and language as tools of thought has
+long been recognized. In chemistry and in botany, for example, the
+establishment of systems of nomenclature by Lavoisier and Linnaeus did much to
+stimulate and to channel later investigation. Concerning language, George Boole
+in his Laws of Thought asserted “That language is an instrument of human
+reason, and not merely a medium for the expression of thought, is a truth
+generally admitted.”
+
+Mathematical notation provides perhaps the best-known and best-developed
+example of language used consciously as a tool of thought. Recognition of the
+important role of notation in mathematics is clear from the quotations from
+mathematicians given in Cajori’s A History of Mathematical Notations. They
+are well worth reading in full, but the following excerpts suggest the tone:
+
+By relieving the brain of all unnecessary work, a good notation sets it free to
+concentrate on more advanced problems, and in effect increases the mental power
+of the race.—A.N. Whitehead
+
+The quantity of meaning compressed into small space by algebraic signs, is
+another circumstance that facilitates the reasonings we are accustomed to carry
+on by their aid.—Charles Babbage
+
+Read Along is a way for you to participate in Paper of the Week. If you want
+to take part, all you have to do is read the paper, make something small in
+response (code or prose), and email
+us
+a link to what you made by noon Eastern Time next Monday.
+
+Last week’s paper, The Power of Two Random Choices: A Survey of
+Techniques and Results, was submitted by Hacker
+School alum Dan Luu. This week, Dan submitted a Read
+Along to his own submission about cache eviction and random
+choice.
+
+You might notice that Dan wrote his submission before last week’s PotW was
+published. We think that’s great! If you’ve made something in the past that’s
+based on one of our papers, we’d love to see your submission too.
+
+Happy Thanksgiving (and happy reading)!
+

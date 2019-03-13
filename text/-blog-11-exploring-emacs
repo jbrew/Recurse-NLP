@@ -1,0 +1,42 @@
+Here’s a fun idea in case you want to practice reading code and using Emacs:
+read Emacs in Emacs!
+
+Emacs makes it easy to see the code behind its commands. For instance, if you
+want to see how a particular command-key sequence works, type C-h k and
+then the key sequence into the modeline prompt.
+
+If you’re curious how C-h k itself works, type C-h k C-h k. According to
+the *Help* buffer that appears, C-h k corresponds to the Emacs Lisp
+function describe-key defined in help.el. Move your cursor onto the
+help.el text in the Help buffer and press enter. You’re now looking at the
+Emacs Lisp source for describe-key.
+
+If you’d like to see how a particular Emacs Lisp function or special form
+works, type C-h f and then the name of the function or special form.
+
+Perhaps you’re curious how lambda works: type C-h f lambda and then hit
+enter. Another *Help* buffer will appear, saying that “lambda is a Lisp macro
+in subr.el”. As before, place your cursor inside subr.el and then press
+enter; Emacs will transport you right to the definition of lambda.
+
+Emacs isn’t Emacs Lisp all the way down, though. For instance, addition is
+presumably defined in C. C-f + confirms this, noting that “+ is a built-in
+function defined in data.c”. If you move your cursor over data.c and press
+enter, Emacs will probably prompt you at the modeline for the location of your
+Emacs C source directory; it’s likely that when you installed Emacs, you only
+downloaded pre-compiled binaries. You can find source corresponding to your
+version of Emacs here. Once you tell Emacs
+where to look, you can hop into Emacs’s C source code, too.
+
+It’s fun to guess whether a particular function or special form is defined in
+Emacs Lisp or C. The answer can also change between versions of Emacs. For
+example, until quite recently, the special form for defining a new Emacs Lisp
+function, defun, was defined in C. If you’re unfamiliar with Lisp, you might
+wonder how it could be otherwise! But according to my *Help* buffer in Emacs
+24.3.50.1, “defun is a Lisp macro defined in byte-run.el”.
+
+The exuberant comment above defun‘s definition in byte-run.el is worth
+reinstalling Emacs from trunk: “Now that we defined defmacro we can use it!”.
+Bootstrapping defun is now the very first use of defmacro in all of Emacs.
+If you’re curious where defmacro comes from, you know what to do :)
+

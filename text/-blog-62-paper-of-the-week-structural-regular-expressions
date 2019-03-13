@@ -1,0 +1,37 @@
+This is part of our “Paper of the Week” series. For more info, check out our
+introductory blog post.
+
+This week’s paper is Structural Regular Expressions by Rob Pike, one of the creators of the Go programming language and the Plan 9 operating system. It was published in Proceedings of the EUUG Spring 1987 Conference.
+
+This paper is all about picking the right abstraction. Sometimes a small change to the abstraction you’re using can dramatically simplify your code, or allow you to express a larger set of ideas. Structural Regular Expressions has a particularly good example of this. With one small change to how traditional regular expressions match, Pike shows how a number of common tasks become easier to express. The paper is accessible and short, and the examples are elegant and easy to read.
+
+Structural Regular Expressions was suggested by Hacker Schooler Travis McDemus, who shared the following:
+
+I benefited in a few ways from reading this concise, accessible paper: 1)
+Observing some of the biases inherent throughout Unix. 2) Greater understanding
+of regular expressions as a whole (which can help with daily practical usage of
+vim, ed, sed, awk). 3) Understanding some of the philosophy that went into
+designing Plan 9’s tools, golang, etc.
+
+Here’s the abstract:
+
+The current UNIX® text processing tools are weakened by the built-in concept of a
+line. There is a simple notation that can describe the ‘shape’ of files when the typical
+array-of-lines picture is inadequate. That notation is regular expressions. Using regular
+expressions to describe the structure in addition to the contents of files has interesting
+applications, and yields elegant methods for dealing with some problems the current tools
+handle clumsily. When operations using these expressions are composed, the result is
+reminiscent of shell pipelines.
+
+Read Along is a way for you to participate in Paper of the Week. If you want
+to take part, all you have to do is read the paper, make something small in
+response (code or prose), and email
+us
+a link to what you made by noon Eastern Time next Monday.
+
+We didn’t get any Read Along submissions for Statecharts: A Visual Formalism for Complex Systems :(. We’re looking forward to your submissions for this week’s paper.
+
+If you’re looking for even more things to read, check out the first issue of Code Words, our new quarterly publication about programming.
+
+Happy reading!
+

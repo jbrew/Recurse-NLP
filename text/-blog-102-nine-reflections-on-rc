@@ -1,0 +1,51 @@
+Back in 2013, RC alum Sasha Laundy built Blaggregator, a blog aggregator for the RC community. Many Recursers use Blaggregator to automatically push posts from their blogs to the blogging stream on Zulip, our internal chat system, and lots of great discussions between alumni, residents, and current Recursers have cropped up as a result.
+
+Thanks to those discussions, we’ve noticed certain trends in the things Recursers blog about. Several alumni recently made a page on our wiki that lists all of the “return statements,” or end-of-batch reflection posts, Recursers have written.
+
+We think these posts will be helpful for anyone working on becoming a better programmer, and that they also do a good job explaining what happens at RC. This is not an exhaustive list of all the end-of-batch posts Recursers have written, but it’s a good sample.
+
+Retrospective – Mindy Preston, Winter 2014 
+
+
+The Recurse Center wasn’t my first rodeo; I have an undergraduate degree in computer science and have worked through some pretty punishing crunch times as a professional maker of software. The thirst for knowledge and accomplishment I felt from my fellow batchlings at RC, and the urgency it fostered in me, was something entirely new to me. I came into the space fighting a lot of negative feelings about the work it was possible to do in the world as someone who makes software. Many (although by no means all) RCers are early in their careers, and it was hugely restorative for me to be around, and share in, their enthusiasm and love for discovery. I wanted to write code again, and I wanted badly for it to be good, not just good enough.  
+
+A summary of my time at RC – Lin Taylor, Fall 2, 2015 
+
+
+This post is a reflection of the things that I learned [at RC], as well as my highlights and lowlights of the past 3 months. tl;dr: had a great time, learned a lot. If you want to get better at programming and also meet a whole lot of smart, passionate people who will help you do it, RC is the place. 
+
+RC Spring 2, 2015 Return Statement – Nat Welch, Spring 2, 2015 
+
+
+I’m not entirely sure what happened, but I somehow wrote something every day for one hundred consecutive days. I lived at a level of transparency I wish I had been doing for years (and I kind of wish all of humanity could do every day). The place that inspired me to do this was the Recurse Center. 
+
+The blog that should have been – Margo Smith, Fall 2, 2014 
+
+
+After 16 years of school and 2 years working, it took this unstructured 3-month program for me to finally learn that I don’t need institutional incentives to keep learning. All I need is a supportive environment and the freedom to work on whatever I want. This means (I hope) that [RC] wasn’t just a 3-month program, but rather a starting point for a lifetime of continued learning.  
+
+Reflections on the Recurse Center – John Loeber, Fall 2, 2014 
+
+
+What’s interesting about having all traditional external obstacles removed is that it exposes the internal ones. While there sometimes are genuine external obstacles to success, I think that internal ones (like a lack of focus or using one’s time poorly) can be more persistent or more stifling. An external obstacle may block you for a few days, weeks, or maybe even years, but the nature of an external obstacle is often clear, as is a path to eventually overcoming it. An internal obstacle may block you for life if undetected, and some of them are very subtle…The Recurse Center was extremely useful in that it facilitated the detection of these internal obstacles.  
+
+Advice for new Hacker Schoolers Recursers – Pablo Torres, Winter 2014 
+
+
+One advantage of getting to know your fellow batchlings early on is that you get a sense of who to ask what questions to from the beginning. During the first few weeks of my batch, I could always point people to whoever was most likely to help them. “I think I’m gonna write a recommendation system,” they would say, and “Oh! Rad Person is writing their masters thesis on exactly that! You should talk to them!” I would answer. I got that part right.  
+
+Recurse Center: The return statement – Pam Selle, Spring 1, 2015 
+
+
+I went to RC intending for it to stand as my “instead of grad school” experience (at least for now), thinking I would study formal theory. I thought I needed these things to have the knowledge I wanted, but I realized that formal theory will always be there for me, and wandering into project-based learning and working with others on their projects led me to finding the theory I needed, and not learning it for the sake of an ephemeral checkbox.  
+
+The Recurse Center and the joy of learning – Martin Kleppmann, Fall 1 and 2 2015 resident 
+
+
+After working with a few members of the batch, I realised why the varying levels of experience are not a problem for RC: everyone is a beginner at the thing they are exploring at RC. If you are an experienced software developer, you don’t go to RC in order to keep doing the same things as you did at your last job, using the same languages to build the same kind of application. No, you probably join RC because you want to learn something completely different. Your time at RC is an opportunity to “level up” your craft. If you’re an experienced web developer, how about learning a functional language like Haskell or Idris? If you’re a veteran C++ hacker, maybe you want to learn about formal methods like Coq or TLA+? Even if you’ve been writing software for 20 years, you’re a complete newbie when you move so far out of your comfort zone – so you’re actually not that different from someone who is trying to get their first small piece of Python code to work. You’re a beginner too.  
+
+I’ve left the Recurse Center – Mary Rose Cook, facilitator emerita 
+
+
+I did the best work of my life at RC. And I had the best time of my life at RC. I’m sad not to be able to program every day with Recursers. I’m sad not to be able to work on making RC the best place in the world to learn to program. And I’m sad to be parting from some dear friends. I’ve learnt most of what I know about programming from Recursers. They helped me get better at code review, get better at explaining things and get better at pairing. They taught me both how and why to dive deep and how and why to be rigorous. They helped me try things that seemed too hard and helped me discover that they were hard but doable.  
+

@@ -1,0 +1,35 @@
+This is part of our “Paper of the Week” series. For more info, check out our
+introductory blog post.
+
+This week’s paper is The Evolution of the Unix Time-sharing
+System by Dennis
+Ritchie. It was presented at the 1979
+Language Design and Programming Methodology conference in Sydney, Australia.
+
+This paper describes the early history of Unix, which was created in 1969. It’s
+fun to see what’s been the same since the beginning (IO redirection), what’s
+changed (there weren’t any path names!), and how things got to be the way they
+are today. As supplemental reading, you may also enjoy Ritchie’s short writeup
+of Space Travel, the game
+for the PDP-7 that preceded Unix. If you’re feeling ambitious this weekend,
+building a modern version of Space Travel might be a fun exercise (and a great
+Read Along submission).
+
+The Evolution of the Unix Time-sharing System was recommended by Hacker School resident Michael Lee.
+
+Here’s the abstract:
+
+This paper presents a brief history of the early development of the Unix
+operating system. It concentrates on the evolution of the file system, the
+process-control mechanism, and the idea of pipelined commands. Some attention
+is paid to social conditions during the development of the system.
+
+Read Along is a way for you to participate in Paper of the Week. All you have
+to do is read the paper, make something small in response (code or prose), and
+email us
+a link to what you made by noon Eastern Time next Monday.
+
+Hacker School alum Oskar Thorén submitted a tweet that he claims gets close to the essence of Error Detecting and Error Correcting Codes. Thanks Oskar!
+
+Happy reading!
+

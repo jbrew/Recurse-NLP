@@ -1,0 +1,80 @@
+When you start learning to program, or working in a new language,
+it’s often suggested that you build a simple program like Battleship
+or Tic-tac-toe.
+The games’ rules are well-defined and easy to grasp,
+and you only need to read and print text to get started.
+This frees you up to focus on the mechanics and ideas of the
+programming language you’re learning.
+
+To create the game’s interface in the terminal,
+you end up doing a lot of string formatting: board layout,
+progress bars, announcements to the user.
+The length of a string is useful when formatting for 
+terminals, since they usually use monospaced fonts.
+For example, while writing a game of Battleship in Python
+we might use the len() function explicitly for formatting math
+or implicitly in convenient built-in methods like center() to
+make exciting messages like the following:
+
+However, the code above won’t always work as we expect because
+the len() of text isn’t necessarily the same as its width
+when displayed in a terminal.
+Let’s explore three ways these numbers can differ.
+
+Byte strings (known as “strings” in Python 2) have formatting methods like center() which assume that the displayed width of a string is equal to the number of bytes it contains.
+But this assumption doesn’t always hold!
+The single visible character Ä might be encoded as several bytes in a source file
+or terminal.
+
+The number of bytes in this byte string doesn’t match the number of characters
+so built-in formatting operations don’t behave correctly.
+
+Fortunately, using Unicode strings instead of byte strings solves this problem because they usually report a length equal to the number of Unicode code points
+they contain.1
+
+ANSI escape codes let us format text
+by writing bytes like '\x1b[31m' to start writing in red, and '\x1b[39m'
+to stop. If we build a string containing these sequences,
+the calculated length of our string won’t match its
+displayed width in a terminal:
+
+The colored string reports a length larger than its displayed width, causing problems for built-in text-alignment methods.
+Fortunately, there are several Python libraries that make it easier to work with
+colored string-like objects that don’t include formatting characters
+in their length calculations.
+
+Clint’s colored strings have formatting methods
+that produce the output you expect:
+
+but this no longer works once two colored strings are combined into a new colored string:
+
+My own attempt at solving this problem
+uses smart string objects which know how to concatenate:
+
+but doesn’t correctly implement every formatting method yet: above, **shipocean** has lost its color information because
+a fallback implementation of center() was used.2
+
+Formatting methods of Python Unicode strings like center() assume that the display width of a string is equal
+to its character count. But this assumption doesn’t always hold!
+
+What if we use fullwidth Unicode characters?
+
+What about multiple Unicode code points that combine
+to display a single character?3
+
+The width of a Unicode string differs from the number of characters in it.
+Fortunately, we can use the POSIX standard function wcswidth to calculate
+the display width of a Unicode string.
+We can use this function to rebuild our
+basic formatting functionality.4
+
+Unfortunately, for versions of Python earlier than 3.3 it’s still possible that the len() of a Unicode character like u'\U00010123' will be 2 if your Python was built to use the “narrow” internal representation of Unicode. You can check this with sys.maxunicode - if it’s a number less than the total number of Unicode code points, some Unicode characters are going to have a len() other than 1.↩
+
+Want to fix this? Pull requests are welcome! The fix would be pretty similar to the fix for this issue about .ljust and .rjust.
+  ↩
+
+The Unicode spec calls this an extended grapheme cluster. Interestingly, the Character class in the Swift programming language represents an extended grapheme cluster and may be composed of multiple Unicode code points.
+  ↩
+
+Here we’re using a pure Python implementation for compatibility and readability.↩
+

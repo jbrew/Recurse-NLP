@@ -1,0 +1,32 @@
+Today, I’m going to share some things we learned from the last batch of Hacker School, and announce our winter 2013 residents and grant sponsors.
+
+While it’s too late to apply for our current batch, applications are open for our summer 2013 batch.
+
+Last batch, as an experiment, we invited a few great programmers we respect tremendously to be residents at Hacker School, each for one or two weeks. The experiment was a huge success and Stefan Karpinski, Jessica McKellar, David Nolen, Alex Payne, and Peter Seibel deserve all the credit. Hacker Schoolers got to talk and pair with them, learn from their experiences, and become friends with them.
+
+Now that we have some distance between ourselves and the last batch, I want to share some of the most interesting things we learned from our residency program.
+
+We were lucky to be able to pepper our residents with questions about how they learn, and there was a surprising amount of variety to their answers. Some of our residents said that they learned best with self-directed study, while others said that they need more structure. One even said he learns best with the constraints of a job.
+
+This has affected how we run Hacker School in two ways. First, it has inspired us to experiment with adding more optional structure to the batch, and second, it has made us much more wary of the idea that there is one true way to learn programming. If Hacker School is going to be the best place in the world to become a better programmer, we must be able to cater to all types of students.
+
+Next, having residents at Hacker School reaffirmed our belief that reflection and introspection are integral to the learning process. Despite the differences in how they approached learning, all of our residents have thought a lot about the paths they took to get to where they are now. Though we recently removed a daily reflection feature from our internal website because it wasn’t getting used enough, introspection has become a core part of the way programming is learned at Hacker School1.
+
+Lastly, there’s a lot of value in watching experienced programmers work. Two of our most successful group activities have been seminars watching Peter do a live refactoring of a small tic-tac-toe program and having David walk through and explain an implementation of miniKanren. Watching great programmers work shows us how much we can improve and inspires us to try to get there.
+
+Given how much their presence improved Hacker School, it was a no-brainer to invite all of our past residents back for another batch. We set our expectations appropriately given that, unlike us, they have concerns outside of Hacker School, and we were ecstatic to learn that Stefan, Jessica, and David were all able to come back for this batch. Residents are now a core part of Hacker School and we’re grateful that Stefan, Jessica, and David will be spending time with us again.
+
+In addition, we’re excited to have two new residents joining us this batch: Jacob Kaplan-Moss and Glyph. Jacob is one of the creators of Django and Glyph is the creator of Twisted. In addition to their obvious technical qualifications, Jacob and Glyph are warm, friendly, and thoughtful and will help make Hacker School a safe place to ask questions and grow as a programmer. We’re looking forward to learning from their experience and we know they’ll help make Hacker School even better. You can read more about Jacob and Glyph on our residents page.
+
+Our goal is to make Hacker School the best place on earth to become a better programmer. One of the best predictors of how much you will improve during your time here is how comfortable you are admitting you don’t know something. The most successful Hacker Schoolers actively seek out things they don’t understand and fearlessly ask questions until they do. We want to create an environment where everyone, both men and women, are able to do these things and excel.
+
+Women have made up a small minority of programmers for many years. When you are in a minority, it is easy to feel like you don’t belong and to be susceptible to stereotype threat. If you don’t feel like you belong at Hacker School, you won’t be as comfortable asking questions and admitting gaps in your knowledge, and if you can’t do that, you won’t improve as much as you could. This is one of the reasons we care so much about having gender parity at Hacker School. Our goal is to eliminate the negative effects of being in a minority that female programmers have to deal with in most of the rest of the world. While we’re not there yet (our past three batches have been 35-45% female), we’re working on fixing this problem by providing need-based grants to any female student who needs one2. Hacker School remains free to attend, but being in New York for three months without a job is not free and having cash on hand to cover the cost of living can make all the difference.
+
+For the past three batches, generous and committed companies have stepped up to help us provide these grants that we cannot afford to give ourselves. We want to take a moment to thank the companies who are sponsoring grants for this batch, and the people at each one who made it possible. Thanks to Albert Ni at Dropbox, Marc Hedlund at Etsy, Scott Chacon at GitHub, and Marc Yun at PhotoShelter. All these companies care tremendously about supporting female programmers and are putting their money where their mouths are. Without these wonderful sponsors, Hacker School would not be possible. We are honored to have their support. Thank you!
+
+Curious about Hacker School? Read more about us and apply for our summer batch.
+
+More on this in a future blog post.↩
+
+The grants have successfully boosted the number of women able to do Hacker School, without impacting men’s chances of being accepted, since we’ve been able to admit all of the qualified students who have applied to our recent batches. If you’d like to sponsor need-based grants for women or men to do Hacker School, please email us.↩
+

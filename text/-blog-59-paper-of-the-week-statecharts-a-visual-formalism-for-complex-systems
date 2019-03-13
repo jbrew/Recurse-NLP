@@ -1,0 +1,50 @@
+This is part of our “Paper of the Week” series. For more info, check out our
+introductory blog post.
+
+This week’s paper is Statecharts: A Visual Formalism for Complex Systems by David Harel, a professor of computer science and applied mathematics at the Weizmann Institute of Science. It was published in the June 1987 issue of Science of Computer Programming.
+
+This week’s paper was submitted by Hacker School resident Kevin Lynagh, who shared the following:
+
+Harel’s Statecharts are a visual formalism for specifying the behavior of
+systems. They’re basically finite state machines, but with notions of hierarchy
+and concurrency.
+
+The paper is very readable: Harel reverse engineers his digital wristwatch and
+draws the statechart specifying its behavior. It’s extremely fruitful to
+internalize the larger idea: That you can (and should!) think rigorously about
+the desired behavior of an artifact before diving straight into the code.
+
+Here’s the abstract from the paper:
+
+We present a broad extension of the conventional formalism of state machines
+and state diagrams, that is relevant to the specification and design of complex
+discrete-event systems, such as multi-computer real-time systems, communication
+protocols and digital control units. Our diagrams, which we call statecharts,
+extend conventional state-transition diagrams with essentially three elements,
+dealing, respectively, with the notions of hierarchy, concurrency and
+communication. These transform the language of state diagrams into a highly
+structured and economical description language. Statecharts are thus compact
+and expressive—small diagrams can express complex behavior—as well
+as compositional and modular. When coupled with the capabilities of
+computerized graphics, statecharts enable viewing the description at different
+levels of detail, and make even very large specifications manageable and
+comprehensible. In fact, we intend to demonstrate here that statecharts counter
+many of the objections raised against conventional state diagrams, and thus
+appear to render specification by diagrams an attractive and plausible
+approach. Statecharts can be used either as a stand-alone behavioral
+description or as part of a more general design methodology that deals also
+with the system’s other aspects, such as functional decomposition and data-flow
+specification. We also discuss some practical experience that was gained over
+the last three years in applying the statechart formalism to the specification
+of a particularly complex system.
+
+Read Along is a way for you to participate in Paper of the Week. If you want
+to take part, all you have to do is read the paper, make something small in
+response (code or prose), and email
+us
+a link to what you made by noon Eastern Time next Monday.
+
+Sadly, we didn’t receive any Read Along submissions for Notation as a Tool of Thought. We’re looking forward to your submissions for this week’s paper.
+
+Happy reading!
+

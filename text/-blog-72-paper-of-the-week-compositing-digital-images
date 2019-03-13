@@ -1,0 +1,51 @@
+This is part of our “Paper of the Week” series. For more info, check out our
+introductory blog post.
+
+This week’s paper is Compositing Digital
+Images by Thomas Porter
+and Tom Duff (of Duff’s
+device). It was published in
+the July 1984 issue of Computer Graphics. Porter and Duff had worked together
+at Lucasfilm’s Graphics Group (which later became Pixar), though Duff was
+working at Bell Labs at the time of the paper’s publication.
+
+Compositing Digital Images is a very cool piece of history that describes a
+method of compositing—combining a number of source images into one output
+image—that we still use virtually unchanged 30 years later. The paper
+introduces two ideas: an alpha channel for storing per-pixel opacity
+information (the A in RGBA) and a set of operations for combining two images
+that Porter and Duff call a compositing algebra.
+
+Using an alpha channel to track opacity was not a new idea when the paper was
+written, but this may have been the first time the idea was presented to the
+wider world. The compositing algebra, on the other hand, was brand new and is
+especially elegant.
+
+This paper was my first rigorous introductions into the world of computer
+graphics, but reading it felt familiar. Its ideas seem to pop up again and
+again, whether I’m building websites, programming simple games, or messing
+around in Photoshop. If you’re looking for an introduction to computer
+graphics, this is a great place to start.
+
+Here’s the abstract:
+
+Most computer graphics pictures have been computed all at once, so that the
+rendering program takes care of all computations relating to the overlap of
+objects. There are several applications, however, where elements must be
+rendered separately, relying on compositing techniques for the anti-aliased
+accumulation of the full image. This paper presents the case for four-channel
+pictures, demonstrating that a matte component can be computed similarly to the
+color channels. The paper discusses guidelines for the generation of elements
+and the arithmetic for their arbitrary compositing.
+
+Read Along is a way for you to participate in Paper of the Week. All you have
+to do is read the paper, make something small in response (code or prose), and
+email us
+a link to what you made by noon Eastern Time next Monday.
+
+There were no Read Along submissions to last week’s paper. If you’re looking for a project for this week, we
+think a minimal JavaScript implementation of the compositing algebra described
+in this paper could be a lot of fun.
+
+Happy reading!
+

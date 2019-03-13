@@ -1,0 +1,22 @@
+Issue Four of Code Words, our quarterly publication about programming, is now online! Well, partially online.
+
+We’re taking a different approach to publishing this issue. Rather than publish all of it at once, we’re going to spread publication of the pieces in Issue Four over the next two weeks. We’re doing this for a few reasons:
+
+Our team is small and far-flung. The folks who write and edit the pieces are mainly alumni and current Recursers. They put an amazing amount of effort into each piece they work on, but we recognize that they all have busy lives and live in different time zones. For some folks it can be hard to coordinate the work, and we’d like to have a model that allows for as many folks to contribute as possible while removing some of the deadline stress.
+
+A more spread out publication schedule will give everyone more flexibility. We’ve found that in publishing issues of Code Words we often have a piece or two that’s ready early or on time, and a piece or two that needs another week to make it great. There’s also a lot of work to be done after all the pieces are ready for publication, and delays happen at that point in the process, too. We’d like to have that time built in to our publication schedule in a better way than having padded deadlines. We also know that sometimes writers and editors can’t complete an article on time or at all due to events beyond their control, and we’d like to have a process that allows for these possiblities (this happened twice in Issue Four) while also allowing us to publish on time.
+
+We want Code Words to be as awesome as possible. With this issue we were faced with the choice of publishing a full issue on time, or holding off a bit and giving the authors and editors time to make changes and additions to the articles that would make them better. We decided that the second option was better.
+
+We’ve just published the first article of Issue Four: Hack the derivative by Erik Taubeneck (RC Summer 2013), which presents an interesting result in computational science, involving a clever use of complex analysis to give an efficient way to compute estimates of derivatives.
+
+The issue will also include writing from Darius Bacon (RC Fall 2, 2015 and Fall 2012) and Mudit Ameta (RC Spring 2, 2015). In addition to all of the writers, we’d like to thank Joel Burget (RC Spring 1, 2015), Alan O'Donnell (RC Summer 2011 and facilitator emeritus), and Leo Martel (RC Summer 2, 2015) for all their careful editing and help. Special thanks to Gonzalo Bulnes, James Keene, and Mudit Ameta for the help and sympathetic eyebrow-furrowing they lent us in fixing a last-minute bug. New pieces will be published mid-next week, and the week after next. We’ll start publishing Issue Five in mid-December, and will maintain a quarterly publication schedule.
+
+As a preview of Issue Four, here’s a line from Darius’s piece which I loved, and which I believe captures the mission of Code Words nicely:
+
+…try to work out the basics of a subject for yourself: simple ideas are still out there undiscovered or forgotten, waiting to be put together.
+
+Code Words is written and edited by the Recurse Center community. Like the Recurse Center itself, we aim to make Code Words accessible and useful to both new and seasoned programmers, and to share the joyful approach to programming and learning that typifies Recursers. Code Words contributors retain the copyrights to their work, and provide their essays under the terms of the Creative Commons BY-NC-SA 4.0 license.
+
+If you’d like to receive updates about new issues and news about the Recurse Center, sign up for our mailing list.
+

@@ -1,0 +1,45 @@
+This is part of our “Paper of the Week” series. For more info, check out our
+introductory blog post.
+
+This week’s paper is Open, extensible object models by Ian Piumarta and Alessandro Warth and published in 2008 in the book Self-Sustaining Systems.
+
+This paper describes a small, flexible object model that implements method
+lookup using a prototype-like system similar to JavaScript. It’s more
+interesting than it sounds though: method lookup itself is defined in terms of
+sending messages to objects, so you can change how method lookup works without
+having to change the underlying implementation. This means that you can
+implement prototypes, classes, multiple inheritance, traits, and anything else
+you can dream up, in one program without digging into the internals of the
+language.
+
+What makes this even cooler is how small it is. To support all this, you only
+need three object types and five methods, making this as close to a Maxwell’s
+equations for objects as I’ve seen. There’s even a standalone implementation in
+230 lines of C at the end of the paper.
+
+Here’s the abstract:
+
+Programming languages often hide their implementation at a level of abstraction
+that is inaccessible to programmers. Decisions and tradeoffs made by the
+language designer at this level (single vs. multiple inheritance, mixins vs.
+Traits, dynamic dispatch vs. static case analysis, etc.) cannot be repaired
+easily by the programmer when they prove inconvenient or inadequate. The
+artificial distinction between implementation language and end-user language
+can be eliminated by implementing the language using only end-user objects and
+messages, making the implementation accessible for arbitrary modification by
+programmers. We show that three object types and five methods are sufficient to
+bootstrap an extensible object model and messaging semantics that are described
+entirely in terms of those same objects and messages. Raising the
+implementation to the programmers’ level lets them design and control their own
+implementation mechanisms in which to express concise solutions and frees the
+original language designer from ever having to say “I’m sorry.”
+
+Read Along is a way for you to participate in Paper of the Week. All you have
+to do is read the paper, make something small in response (code or prose), and
+email us
+a link to what you made by noon Eastern Time next Monday.
+
+This week, Thomas Smith submitted a partial implementation of Rob Pike’s Structural Regular Expressions. Thanks, Thomas!
+
+Happy reading!
+

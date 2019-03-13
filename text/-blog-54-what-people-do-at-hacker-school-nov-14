@@ -1,0 +1,18 @@
+This is a follow-up to my earlier post, What people do at Hacker School. As before, the goal is to answer the deceptively simple question of what people do at Hacker School. Because Hacker School projects are as diverse as Hacker Schoolers themselves, the best way to answer this by example.
+
+So here’s another small sampling of things people have done at Hacker School in the last few weeks:
+
+Create language for generating minimalist art. Sarah is building LeWittScript, a conceptualist art and code project for generating art in the style of the American artist Sol LeWitt.
+
+Build software to broadcast terminal sessions. Jesse wrote a reimplementation of Termcast in Python to let people share their terminal sessions over SSH and the web.
+
+Contribute back to Community (in ClojureScript). Madhu and Suren are adding a search feature to Community, the open source forum software we replaced Google Groups with internally this year.
+
+Write a Twitter-based file system. Adrien wrote a FUSE-based file system on top of Twitter so you can cat, ls and rm your followers.
+
+Pair program and then write a blog post – together. Susan and Stephanie added a feature to bpython, and then pair blogged the experience.
+
+Update a kernel module to fix your keyboard. Chase’s keyboard wasn’t working how he wanted it to, so he read the Linux source, wrote a patch, and blogged about the process.
+
+If you’d like to spend three months becoming a better programmer and working on projects like these, you should apply to Hacker School. Don’t let any of these projects intimidate you: Most people report that Hacker School enabled them to tackle things they previously thought they couldn’t.
+

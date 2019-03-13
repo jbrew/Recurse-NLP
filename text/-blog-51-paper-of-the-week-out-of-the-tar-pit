@@ -1,0 +1,52 @@
+This is part of our “Paper of the Week” series. For more info, check out our
+introductory blog post.
+
+This week’s paper is Out of the Tar
+Pit by Ben Moseley and Peter Marks,
+which was presented at
+SPA2006.
+
+Out of the Tar Pit was submitted by Hacker Schooler Pablo
+Torres, who shared the following:
+
+In Out of the Tar Pit, Moseley and Marks argue that the biggest source of
+complexity in programs is mutable state, because keeping track of all possible
+combinations of bits is unmanageable. They introduce the notions of essential
+and incidental complexity, the former referring to details that are inherent to
+a problem and the latter to those complications that arise due to a particular
+solution one might attempt - for example, issues added by the programming
+language in use.
+
+They continue by comparing Object-Oriented Programming’s approach of breaking
+state up into small, manageable pieces and providing controlled mutations with
+Functional Programming’s solution of avoiding mutations altogether; they also
+spend some time analyzing Logic Programming. They favor the simplicity of FP,
+even though they admit that it takes discipline to achieve.
+
+Finally, they offer recommendations on how to build systems that are easy to
+reason about by using the tools provided by Functional Programming and
+relational database modelling.
+
+Here’s the abstract from the paper:
+
+Complexity is the single major difficulty in the successful development of
+large-scale software systems. Following Brooks we distinguish accidental from
+essential difficulty, but disagree with his premise that most complexity
+remaining in contemporary systems is essential. We identify common causes of
+complexity and discuss general approaches which can be taken to eliminate them
+where they are accidental in nature. To make things more concrete we then give
+an outline for a potential complexity-minimizing approach based on functional
+programming and Codd’s relational model of data.
+
+Read Along is a way for you to participate in Paper of the Week. If you want
+to take part, all you have to do is read the paper, make something small in
+response (code or prose), and email
+us
+a link of what you make by noon Eastern Time next Monday.
+
+Last week’s paper was The Chubby Lock Service for Loosely-Coupled
+Distributed Systems. Here are the Read Along
+submissions:
+
+Happy reading!
+

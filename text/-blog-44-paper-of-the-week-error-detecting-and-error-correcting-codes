@@ -1,0 +1,40 @@
+This is part of our “Paper of the Week” series. For more info, check out our
+introductory blog post.
+
+This week’s paper is Error Detecting and Error Correcting
+Codes by Richard
+Hamming. It was published in
+the April 1950 issue of the Bell System Technical
+Journal. Hamming
+worked at Bell Labs from 1946 to 1976. During those years, the transistor,
+information theory, modern cryptography, the solar cell, the laser, UNIX, C,
+and the error correcting codes described in this paper were all invented at
+Bell Labs.
+
+Hacker School alum Dan Luu submitted this paper and said
+the following:
+
+Despite being more than six decades old, Hamming codes are probably the most
+commonly used error-correcting codes (ECC) today, and I’ve probably
+used/implemented them more often than all other types of ECC combined. They’re
+one of the first things you should consider if you’re sending/storing data in a
+lossy medium and you need ECC that’s simple/fast, or if you’re operating on
+small chunks of data.
+
+Also, I believe this is the second paper written on error
+correcting codes, and that it’s often considered to be the seminal
+work in the field. Because the field was so young at the time, the
+paper assumes no background, which makes it eminently readable.
+
+Read Along is a way for you to participate in Paper of the Week. If you want
+to take part, all you have to do is read the paper, make something small in
+response (code or prose), email us a link of what you make by
+noon Eastern Time next Monday, and we’ll link to it from our blog.
+
+Nobody submitted a Read Along this week, so there’s nothing to post here. If
+you are reading along with us, please don’t be shy! Even a one paragraph
+Gist with your unedited thoughts would be fun for
+other people to read.
+
+Happy reading!
+
