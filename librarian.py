@@ -4,7 +4,7 @@ import nltk
 import math
 import model.dictionary as dictionary
 from itertools import islice
-from nltk.tokenize import TweetTokenizer
+
 
 punctuation = ['.', ',', '!', '?', '(', ')', '$', ':', ';', '{', '}', '[', ']', '•', '|']
 
@@ -19,7 +19,7 @@ def get_data(path, n=100000):
 		return rows
 
 def get_data_from_tab_delimited(path, n=100000, headers=None):
-	with open(path, encoding = "ISO-8859-1") as f:
+	with open(path) as f:
 		next(f)
 		reader=csv.reader(f,delimiter='\t')
 		rows = [row for row in islice(reader,0,n)]
@@ -36,7 +36,7 @@ def get_data_from_directory(dirpath, headers=['','']):
 		if not dirpath[-1] == '/':
 			dirpath += '/'
 		filepath = dirpath+filename
-		with open(filepath, encoding = "ISO-8859-1") as f:
+		with open(filepath) as f:
 			text = f.read()
 			rows.append([filename, text])
 	return rows
@@ -67,63 +67,13 @@ def all_text_from_column(rows, col_name):
 
 	if col_name in rows[0]:
 		n = rows[0].index(col_name)
-		return [row[n] for row in rows[1:]]
+		return '\n'.join([row[n] for row in rows[1:]])
 	else:
 		return ''
 
 
-### TEXT PROCESSING METHODS ###
-
-def split_into_sentences(text):
-	tokenizer = TweetTokenizer()
-	return tokenizer.tokenize(text)
-
-def split_into_words(sentence):
-	tokenizer = TweetTokenizer()
-	return [w.lower() for w in tokenizer.tokenize(sentence) if not w in punctuation]
 
 
-# a dictionary of all terms in the document of length n
-def term_dict(doc, n=1):
-	term_dict = {}
-	words = split_into_words(doc)
-	for i in range(len(words)+1-n):
-		term = " ".join(words[i:i+n])
-		if term in term_dict:
-			term_dict[term] += 1
-		else:
-			term_dict[term] = 1
-	return term_dict
-
-# a list of dictionaries of terms in the document of length n
-def term_dicts(corpus, n=1):
-	return [term_dict(d, n) for d in corpus]
-
-# list of integers representing term frequency across documents
-def frequency_distribution(term, tds):
-	freqs = []
-	for td in tds:
-		if term in td:
-			freqs.append(td[term])
-		else:
-			freqs.append(0)
-	return freqs
-
-# how many times the term appears in the document
-def term_frequency(term, doc):
-	return term_dict(doc)[term]
-
-# how many documents in the corpus include the term
-def doc_frequency(term, all_tds):
-	return len([1 for td in all_tds if term in td])
-
-# a measure of how topical this term is for this document
-def tf_idf(doc, corpus):
-	pass
-
-# list of the same length as the corpus list with top tf-idf candidates for topic words
-def keywords(corpus, td_list, num_keywords):
-	pass
 
 
 # returns lower and upper bounds containing 95 percent of occurrence rates of the term

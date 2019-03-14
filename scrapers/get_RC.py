@@ -26,7 +26,7 @@ def scrape():
 		link = 'https://www.recurse.com' + items[i]['href']
 		print(link)
 
-		path = 'text/%s' % (items[i]['href'].replace('/','-'))
+		path = 'posts/%s' % (items[i]['href'].replace('/','-'))
 		outfile = open(path, 'w')
 		try:
 			page = urllib.request.urlopen(link)
